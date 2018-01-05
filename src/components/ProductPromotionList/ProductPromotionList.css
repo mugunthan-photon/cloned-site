@@ -1,0 +1,107 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.productPromotionList {
+    @media (--viewport-md-plus) {
+        margin-left: 3px;
+    }
+    & .prodPromotionListBlock {
+        & .prodPromtionListItem {
+            @media (--viewport-md) {
+                width: 25%;
+                padding: 4px;
+            }
+            @media (--viewport-sm) {
+                width: 50%;
+                padding: 4px;
+            }
+            @media (--viewport-lg) {
+                width: 25%;
+                padding: 8px;
+            }
+            @media (--viewport-xl) {
+                width: 25%;
+                padding: 8px;
+            }
+        }
+    }
+    & .marginTopReduce11{
+        margin-top: -11px;
+    }
+    & .paginationInfo {
+        text-align: center;
+        display: block;
+        margin-top: 8px;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        color: #53606b;
+    }
+
+    & .loadMore {
+        margin: 0 auto;
+        display: block;
+        font: bold 14px var(--main-font);
+    }
+
+    & .disclaimer {
+        padding-bottom: 12px;
+    }
+
+    & .accordionContainer {
+        border-bottom-width: 0;
+        border-bottom-width: 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 12px;
+    }
+
+    & .accordionSection {
+
+        & .panelHeader {
+            padding: 1rem 0;
+            margin: 0;
+            position: relative;
+            font-size: 16px;
+            color: var(--color-gray-7);
+            font-weight: bold;
+            font-family: var(--main-font);
+            line-height: 1.5;
+
+            & .iconBlock {
+                position: absolute;
+                right: 10px;
+                top: 12px;
+            }
+        }
+
+        & > .panel {
+            max-height: 0;
+            overflow-y: hidden;
+        }
+
+        & .iconToggleAccordion{
+            stroke: var(--color-seconday-turquoise);
+            stroke-width: 3px;
+            stroke-linecap: round;
+        }
+
+        &.selected {
+            background-color: var(--color-gray-0 );
+
+
+            & .panelHeader {
+                background-color: var(--color-gray-0 );
+
+            }
+
+            & > .panel {
+                border-bottom: .0625rem solid #eee;
+                max-height: 1000px;
+                padding-bottom: 10px;
+                background-color: var(--color-gray-0 );
+                transition: max-height .1s ease-in;
+            }
+        }
+    }
+}

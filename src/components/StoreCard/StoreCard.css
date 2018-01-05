@@ -1,0 +1,141 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+.storeCard {
+    font-family: Helvetica Neue,sans-serif;
+    margin: .1875rem 0;
+    padding: 20px 5px;
+    border-style: solid;
+    border-width: 0.0625rem 0;
+    border-color: var(--color-gray);
+    background-color: var(--color-white);
+    letter-spacing: .03125rem;
+    text-align: left;
+
+    & .row {
+        margin-bottom: 10px;
+    }
+
+    & .myStore {
+        color: var(--color-green);
+
+        & .myStoreIcon {
+            margin-right: 5px;
+        }
+    }
+
+    & .row:last-child {
+        margin-bottom: 0px;
+    }
+
+    & .addressBlock {
+        width: 60%;
+        display: inline-block;
+    }
+
+    & .storeButtonWrapper {
+        width:50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    & .storeCardTitle {
+        margin-top: .2rem;
+        margin-bottom: .5rem;
+        font-weight: 700;
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+
+    & .listNumber {
+        border-radius: 50%;
+        font-size: .85rem;
+        width: 1.25rem;
+        height: 1.25rem;
+        background: var(--color-red);
+        border: 1px solid var(--color-red);
+        color: var(--color-white);
+        padding: 0;
+        right: .2rem;
+        text-align: center;
+        margin-bottom: .3125rem;
+    }
+
+    & .address {
+        font-style: normal;
+        font-size: 0.75rem;
+    }
+
+    & .addresstitle {
+        font-size: 0.875rem;
+        font-weight: 700;
+        margin-top: .2rem;
+        margin-bottom: .5rem;
+    }
+
+    & .storeDetailsBlock,
+    & .storeService {
+        width:40%;
+        display: inline-block;
+        text-align: right;
+        font-size: 0.75rem;
+    }
+
+    & .storeService {
+        width: 50%;
+    }
+
+    & .storeDistance {
+        font-size: 0.875rem;
+        font-weight: bold;
+    }
+
+    & .getStoreDirection,
+    & .storeService {
+        font-weight: 700;
+        color: var(--color-anchor-color );
+    }
+
+    & .anchorText, & .storePhone {
+        color: var(--color-anchor-color );
+    }
+
+    & .storeTimings {
+        padding-top: 8px;
+    }
+
+    & .storeButton{
+        background-color: var(--color-red);
+        color: var(--color-white);
+        border-color: var(--color-dark-red);
+        font-size: 12px;
+        border-radius: 2px;
+        padding: 9px 17px;
+    }
+
+    & .storesDetailBlock {
+        & .hrStyle{
+            margin: .9375rem 0;
+            padding-left: 5px;
+        }
+    }
+
+    & .storeHoursDetail {
+        margin-bottom: .9375rem;
+    }
+
+    & .hourContentListItem,
+    & .storeServicesListItem {
+        text-align: left;
+        font-size: 0.75rem;
+        padding: 0;
+    }
+
+    & .storeServicesList {
+        column-count: 2;
+    }
+}
+
+.storeCard:first-child{
+    margin: 0;
+    border-top: none;
+}

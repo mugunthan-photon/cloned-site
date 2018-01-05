@@ -1,0 +1,37 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+
+.productCardFinal{
+    &.cartridge{
+       & .card {
+            height: 100%;
+            border: none;
+       }
+
+        & .pricingWrapper{
+            min-height: 67px;
+
+            & .priceWrapperClass{
+                white-space: normal;
+                line-height: 20px;
+                margin: 5px 0;
+
+                & .priceClass{
+                    font-size: 1.25rem;
+                }
+            }
+
+            .salesummary {
+                white-space: nowrap;
+            }
+       }
+
+        & .imgBlock {
+            & .imageClass {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}

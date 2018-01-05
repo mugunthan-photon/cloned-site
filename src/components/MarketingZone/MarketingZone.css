@@ -1,0 +1,243 @@
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+.marketingZone {
+	margin-top: 16px;
+	
+	& img {
+  		width : 100%;
+  	}
+}
+.zonePreview {
+	border: aqua;
+	border-style: solid;
+	position: relative;
+}
+.zonePreviewContent {
+	border: red;
+	border-style: solid;
+	position: absolute;
+	background-color: white;
+	padding: 5px;
+	margin: 10px;
+
+	@media(--viewport-sm) {
+		left: 55%;
+		font-size: 12px;
+	}
+
+	@media(--viewport-md) {
+		left: 75%;
+	}
+
+	@media (--viewport-lg-plus) {
+		left: 85%;
+	}
+}
+.zoneTimer {
+	& img {
+  		width : 100%;
+  	}
+	& .timer-WrapperClass {	
+		text-align: center;
+		background-color: var(--color-black);	
+		color: var(--color-white);
+		font-family: var(--main-font);
+		width: 100%;
+
+		& .timer-ParentWrapper {
+			text-align: center;
+			& .timer-FontDetails {
+				display: block;
+				font-weight: bold;
+				font-size: 24px;				
+				line-height: 1.25;
+				font-family: var(--main-font);
+				padding: 8px 0 10px 0;
+
+				& .timer-liveTextLabelClassName {
+					margin-right: 4px;
+    				color: var(--color-white);
+					vertical-align: middle;
+					font-size: 30px;
+					font-weight: bold;
+					display: inline-block;
+					word-wrap: break-word;
+					text-align: right;
+					padding-right: 20px;
+					line-height: 50px;
+					text-transform: uppercase;
+					max-width: 800px;
+					/* width: calc(100% - 300px); */
+					width: 68%;
+					
+					@media (--viewport-md) {
+						width: calc(100% - 220px);
+						font-size: 24px;
+						line-height: 21px;
+					}
+
+					@media (--viewport-sm) {
+						font-size: 14px;
+						width: calc(100% - 175px);
+						line-height: 14px;
+						margin: 0;
+						padding-right: 5px;
+					}										
+				}
+
+				& .displayTimer {
+					vertical-align: middle;
+					display: inline-block;
+					width: 235px;
+					text-align: center;
+					color: var(--color-white);
+					font-weight: normal;
+					will-change: transform;
+
+					@media (--viewport-md) {
+						width: 195px;
+						font-size: 24px;
+					}
+
+					@media (--viewport-sm) {
+						font-size: 12px;
+						width: 135px;
+					}					
+				}
+			}
+		}
+	}
+}
+
+.timerContainers {
+	overflow: hidden;
+	 
+	& .timer { 
+		& .timerListItem, & .suffix {
+			float: left;
+			text-align: center;
+			margin: 0;
+			font-size: 24px;
+			height: 60px;
+
+			& .timerNumber {
+				& .timerDigit {
+					width: 30px;
+					height: 45px;
+					float: left;
+					overflow: hidden;
+					position: relative;
+					border-radius: 3px;
+					margin-right: 3px;
+
+					@media (--viewport-md) {
+						width: 25px;
+						height: 34px;
+					}
+
+					@media (--viewport-sm) {
+						width: 16px;
+						height: 26px;
+						padding: 0;
+						border-radius: 2px;
+					}
+
+					.timerNumber {
+						background-color: var(--color-white);
+						font-size: 40px;
+						font-weight: normal;
+						color: var(--color-black);
+						line-height: 40px;
+
+						@media(--viewport-md) {
+							font-size: 30px;
+							line-height: 32px;
+							height: 34px;
+						}
+
+						@media(--viewport-sm) {
+							font-size: 23px;
+							line-height: 25px;
+							height: 25px;
+						}
+					}
+				}
+
+				@media (--viewport-md) {
+					font-size: 24px;
+					line-height: 34px;
+				}
+
+				@media (--viewport-sm) {
+					font-size: 16px;
+					line-height: 31px;		
+				}
+			}
+
+			@media (--viewport-md) {
+				font-size: 26px;
+				height: 47px;
+			}
+
+			@media (--viewport-sm) {
+				font-size: 16px;
+				height: 38px;
+			}
+		}
+
+		& .timerSuffix {
+			line-height: 46px;
+			color: var(--color-white);
+			margin-right: 3px;
+    		font-weight: bold;
+		
+			@media (--viewport-md) {
+				line-height: 28px;
+				font-weight: normal;
+			}
+			@media (--viewport-sm) {
+				line-height: 26px;
+			}
+		}
+
+		& .timerText {
+			display: block;
+			font-size: 14px;
+			font-weight: normal;
+			color: var(--color-white);
+			line-height: 10px;
+			clear: both;
+			width: 100%;
+			top: 2px;
+			position: relative;
+
+			@media (--viewport-md) {
+				font-size: 11px;
+			}
+
+			@media (--viewport-sm) {
+				font-size: 11px;
+				font-weight: bold;
+			}
+		}
+ 	}
+}
+
+.timerAnimateClass {
+	width: 30px;
+	height: 45px;
+	transform-style: preserve-3d;
+	font-weight: bold;
+
+	@media (--viewport-md) {
+		width: 25px;
+		height: 34px;
+	}
+
+	@media (--viewport-sm) {
+		 width: 16px;
+   		 height: 26px;
+	}
+}

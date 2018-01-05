@@ -1,0 +1,185 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.saveForLater {
+        padding: 0px;
+        z-index: 2;
+        color: #1c2024;
+        font-size: 14px;
+        font-family: var(--open-sans);
+        text-align: center;
+        & .saveTooltipBottom {
+            display: inline-block;
+            position: absolute;
+            background: #fff;
+            box-shadow: 0 8px 16px 0 rgba(83, 96, 107, 0.5);
+            right: 8px;
+            top: 55px;
+            padding: 8px 16px;
+            border-radius: 4px;
+            border: solid 1px #c7cdd4;
+            z-index: 2;
+        }
+        & .saveTooltipBottom:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-color: transparent;
+            border-width: 11px;
+            top: -11px;
+            right: 8px;
+            margin-left: -10px;
+            border-top-width: 0px;
+            border-bottom-color: var(--color-gray-3);
+            z-index: 2;
+        }
+
+        & .saveTooltipBottom:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-color: transparent;
+            border-width: 10px;
+            top: -10px;
+            margin-left: -10px;
+            border-top-width: 0px;
+            border-bottom-color: var(--color-white);
+            right: 9px;
+            z-index: 2;
+        }
+        & .saveTooltipRight {
+            display: inline-block;
+            position: absolute;
+            background: #fff;
+            box-shadow: 0 8px 16px 0 rgba(83, 96, 107, 0.5);
+            left: 100%;
+            padding: 8px 16px;
+            border-radius: 4px;
+            margin-left: 8px;
+            border: solid 1px #c7cdd4;
+            z-index: 2;
+        }
+        & .saveTooltipRight:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-color: transparent;
+            border-width: 10px;
+            left: -10.5px;
+            margin-top: -10px;
+            border-left-width: 0px;
+            border-right-color: var(--color-gray-3);
+            top: 20px;
+            z-index: 2;
+        }
+
+        & .saveTooltipRight:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-color: transparent;
+            left: -9px;
+            border-width: 11px;
+            margin-top: -10px;
+            border-left-width: 0px;
+            border-right-color: var(--color-white);
+            top: 19px;
+            z-index: 2;
+        }
+
+        & .sflButtonStyle {
+            background: #fff;
+            border-radius: 20px;
+            opacity: 0.9;
+            width: 40px;
+            height: 40px;
+        }
+
+        & .extraMargin {
+            margin: 8px 8px 0 0;
+        }
+
+        & .success {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.71;
+            text-align: center;
+            color: #01803f;
+        }
+        & .error {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.71;
+            text-align: center;
+            color: #a2000f;
+        }
+        & .link {
+            font-size: 14px;
+            line-height: 1.71;
+            text-align: left;
+            color: #006c7c;
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+        & .tooltipContent {
+            min-height: 24px;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.71;
+            text-align: center;
+            color: #1c2024;
+            min-width: 58px;
+        }
+    }
+
+@media (--viewport-lg-plus) {
+    .saveForLater {
+        & .saveTooltipBottom {
+            max-width: 152px;
+            position: relative;
+        }
+        & .sflButtonStyle {
+            position: absolute;
+            right: 0px;
+        }
+        & .saveTooltipRight {
+            max-width: 160px;
+            position: relative;
+        }
+    }
+}
+
+@media (--viewport-sm) {
+    .saveForLater {
+        & .saveTooltipBottom {
+            min-width: 152px;
+        }
+        & .saveTooltipRight {
+            min-width: 160px;
+        }
+    }
+}
+
+@media (--viewport-md) {
+    .saveForLater {
+        & .saveTooltipBottom {
+            min-width: 152px;
+        }
+        & .saveTooltipRight {
+            min-width: 160px;
+        }
+    }
+}

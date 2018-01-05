@@ -1,0 +1,24 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.urgencyStatementWrapper {
+    border-radius: 0 2px 2px 0;
+    background-color: #be0000;
+    box-shadow: 0 2px 4px 0 rgba(83, 96, 107, .5);
+    padding: 6px 10px;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 8px -21.6px;
+    font: normal 12px/24px 'Open Sans', arial, sans-serif;
+    color: #FFFFFF;
+    &::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-bottom: 5px solid #920000;
+        border-left: 5px solid transparent;
+        position: absolute;
+        left: 0;
+        top: -5px;
+    }
+}

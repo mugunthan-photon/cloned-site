@@ -1,0 +1,75 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.productCardFinal{
+    &.yoda{
+        display: flex; /* As the lower iPad version is fixed with the -webkit- we can make this as flex or inherit is fine */
+        display: -webkit-flex; /* For lower iPad Version */
+        width: 100%;
+
+         & .imgBlock {
+            & .imageDetails {
+                height: auto;
+            }
+        }
+
+        & .title {
+            color: var(--color-gray-5);
+            line-height: 20px;
+        }
+
+        & .priceWrapperClass{
+            white-space: normal;
+            line-height: 20px;
+            margin: 5px 0;
+
+            & .priceClass{
+                font-size: 1.25rem;
+            }
+        }
+
+        & .list{
+             & .imgBlock {
+                display: flex;
+                display: -webkit-flex; /* For lower iPad Version */
+                width: 201px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                 & .imageDetails {
+                    flex-direction: column;
+                    position: relative;
+                }
+             }
+
+             & .detailsWrapper{
+                width: auto;
+                flex-grow: 1;
+             }
+
+             @media (--viewport-sm) {
+                & .imgBlock {
+                    width: 30%;
+                    display: block;
+                    & .imageDetails{
+                        margin-top: 8px;
+                        & .extendedSize {
+                            position: relative;
+                            margin-top: 15px;
+                        }
+                    }
+                }
+
+                & .detailsWrapper {
+                    width: 70%;
+                }
+             }
+              @media (--viewport-md) {
+                & .imgBlock {
+                    max-width: 232px;
+                    width: 100%;                    
+                }
+             }
+        }
+    }
+}

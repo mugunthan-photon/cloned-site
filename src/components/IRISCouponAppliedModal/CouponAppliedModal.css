@@ -1,0 +1,99 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+.appliedModalTheme{
+    padding: 12px 12px 30px 12px;
+    @media (--viewport-md) {
+        width: 470px;
+    }
+    @media (--viewport-lg) {
+        width: 644px;
+    }
+    @media (--viewport-xl) {
+        width: 644px;
+    }
+    @media (--viewport-sm) {
+        width: 270px;
+    }
+}
+
+.appliedModalContentTheme {
+    text-align: center;
+    @media (--viewport-sm) {
+        margin-top:0;
+    }
+}
+
+.couponApplied {
+
+    & .couponStatusIcon {
+        padding: 0.5rem;
+    }
+
+    & .couponStatus {
+        font-size: 24px;
+        font-weight: bold;
+        color: var(--color-gray-7);
+    }
+
+    & .savedPriceInfo {
+        font-size: 16px;
+        color: var(--color-coupon-green);
+        margin-bottom: 16px;
+    }
+
+    & .couponCheckoutCta {
+        margin-bottom: 0.5rem;
+    }
+
+    & .lockBtnIcon {
+        fill: var(--color-white);
+        color: var(--color-white);
+    }
+
+    & .couponMessage {
+        color: var(--color-gray-6);
+        margin-top: 2px;
+        margin-bottom: 24px;
+        font-size: 14px;
+    }
+
+    & .continueShoppingBtn {
+        color: var(--color-gray-6);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: bold;
+        display: inline-block;
+        width: 45%;
+        margin: 8px;
+        @media (--viewport-sm) {
+            width: 100%;
+            margin: 0px 0px 4px 0px;            
+        }
+    }
+    & .okBtn {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: bold;
+        display: inline-block;
+        width: 45%;
+        margin: 8px;
+        @media (--viewport-sm) {
+            width: 100%;
+            margin: 4px 0px 0px 0px;
+        }
+    }
+
+    & button {
+          width: 239px;
+          max-height: 48px;
+          margin: 0 auto;
+          font-weight: bold;
+    }
+}
+
+.lockBtnIcon {
+    fill: var(--color-white);
+    color: var(--color-white);
+}

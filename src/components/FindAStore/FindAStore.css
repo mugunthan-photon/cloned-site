@@ -1,0 +1,421 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/settings/util.css';
+
+
+.storesWrap {
+		font-family: var(--main-font);
+		float: left;
+		width: 100%;
+		display: flex;
+		height: 100%;
+
+		& .storesContainer{
+				width: 42%;
+				float: left;
+				overflow-y: scroll;
+				-webkit-overflow-scrolling: touch;
+				height: calc(100% - 55px) /* As the header height calculates and the scroll is breaking so, applied the calc */
+		}
+
+
+	@nest &.storesWrapMobile {
+			& .storesContainer{
+					width: 100%;
+					float: left;
+			}
+  }
+
+	& .mapsWrapper {
+		width: 58%;
+		border-left: 1px solid var(--color-gray);
+		padding: 15px;
+		float: right;
+		background: var(--color-white);
+		height: calc(100% - 66px);
+	}
+
+	& .mapsWrapperMobile {
+			width: 100%;
+			height: 250px;
+			position: static;
+			border: 0;
+			overflow: hidden;
+			z-index: 1;
+	}
+
+	& .inputContainer{
+		padding:0 .9375rem;
+	}
+
+	& .locationBtn{
+		width: 100%;
+		background-color: var(--color-red);
+		font-size: .875rem;
+		padding: 7px;
+		font-weight: 400;
+		border-radius: .1875rem;
+		text-transform: uppercase;
+		transition: background-color .3s ease-out;
+		border-color: var(--color-dark-red);
+		position: relative;
+
+		& .svgIcon{
+			margin-right: 5px;
+			fill: var(--color-white);
+			color:var(--color-white);
+		}
+	}
+
+	& .activeLocationBtn {
+			color: var(--color-black);
+	}
+
+	& .separator{
+		width: 100%;
+		text-align: center;
+		font-size: 16px;
+		/*margin-top: 20px;*/
+		line-height: 24px;
+	}
+
+	& .errorLinkIcon {
+		padding-right: 5px;
+		vertical-align: text-bottom;
+	}
+
+
+	& .searchWrap{
+		& .title{
+				font-size: .75rem;
+				font-weight: 700;
+				color: var(--color-black);
+				margin-bottom: .1875rem;
+		}
+
+		& .subTitle{
+			font-size: .75rem;
+			margin-bottom: .1875rem;
+			font-weight: 400;
+			color: #333;
+			line-height: 1.5;
+				display: block;
+		}
+
+		& .storeSearchBtn{
+			& .pinBtn{
+				border-radius: 0;
+				width: 43px;
+				min-width: 0;
+				@media (--viewport-sm) {
+					width: 60px;
+				}
+			}
+		}
+	}
+
+	& .storesHeader{
+
+		& .storeTabs{
+				background-color: var(--color-light-slim-gray);
+		    border-color: var(--color-gray);
+		    border-width: .0625rem 0;
+		    border-style: solid;
+		    padding: 1rem;
+				clear:both;
+
+
+		    & .details{
+						margin: 10px auto 0;
+	    			float: none;
+						text-align: center;
+
+						& .numbers{
+								font-size: .875rem;
+								margin-bottom: 0.1875rem;
+
+								& .anchorStyle{
+										color: var(--color-anchor-color);
+										font-size: 0.75rem;
+										background: none;
+										font-weight: normal;
+										border: 0;
+										text-align: left;
+										padding: 5px 0px;
+								}
+						}
+		    }
+
+				& .detailsMobile{
+						float: left;
+						width: 50%;
+						margin: 0;
+						text-align: left;
+				}
+
+		    & .tabOption{
+			    	float: right;
+			    	width: 65px;
+	    			text-align: center;
+
+					@nest &.tabOptionLarge {
+				    	display: none;
+				  }
+
+					& .iconTitle{
+						margin-top: 5px;
+						color: var(--color-light-black);
+					}
+
+					& .iconTitle.active{
+						color: var(--color-red);
+					}
+
+					& .mapIcon{
+						fill: var(--color-light-black);
+						color: var(--color-light-black);
+					}
+
+					& .mapIcon.active{
+						fill: var(--color-red);
+						color: var(--color-red);
+					}
+					& .listIcon{
+						fill:var(--color-light-black);
+						color: var(--color-light-black);
+					}
+
+					& .listIcon.active{
+						fill: var(--color-red);
+						color: var(--color-red);
+					}
+		    }
+		}
+
+	}
+
+	& .storeListMainBlock {
+		/*height: calc(100vh - 273px);*/
+		clear: both;
+		-webkit-overflow-scrolling: touch;
+		margin-top: 2.5rem;
+    	border-top: 1px solid #ccc;
+	}
+
+	& .storesListWrap{
+		background-color: #f2f2f2;
+	}
+
+	& .getMoreWrap{
+		margin: 0 auto;
+		width: 80%;
+	}
+	& .btnGetMore {
+		border-radius: .1875rem;
+		box-shadow: inset 0.0625rem 0.0625rem #000, inset -0.0625rem -0.0625rem #000;
+		background-color: #fff;
+		border-color: #333;
+		color: #333;
+		display: inline-block;
+		font-size: .875rem;
+		transition: none;
+		text-align: center;
+		margin: 3.125rem 0 1.9375rem 0;
+		padding: .375rem .9375rem;
+		width: 100%;
+	}
+
+	& .storesList{
+		display: inline-block;
+		width: 100%;
+	}
+
+	& .modalOverlayTheme{
+    & .filterWrapper {
+        max-height: none;
+				width: 100%;
+				height:100%;
+				opacity: 0.9;
+				border-radius: 0;
+		    padding: 16px;
+
+        & .modalBlockTheme{
+            max-height: none;
+            height: 100%;
+						overflow: scroll;
+						-webkit-overflow-scrolling: touch;
+        }
+
+        & .modalContentTheme{
+            margin-top: 0;
+            max-height: none;
+        }
+    }
+  }
+
+	& .noStoresWrap{
+		border: 1px solid #cd0409;
+	  	background-color: #ffeded;
+		color: #cd0409;
+		padding: .3125rem 0;
+		font-size: .75rem;
+		font-weight: 400;
+		line-height: 1rem;
+		margin-top: 2.3rem;
+	}
+
+	& .storeListItem{
+		display: block;
+		text-align: left;
+		border-bottom: 1px solid var(--color-gray);
+		padding: 1rem 0!important;
+	}
+
+	& .listCheck{
+		font-size: .675rem;
+		font-weight: 700;
+		color:var(--color-light-black);
+		letter-spacing: .03125rem;
+	}
+
+	& .listInput{
+		width: 22px;
+		height: 22px;
+		vertical-align: middle;
+		margin-right: 10px;
+		border: 2px solid var(--color-gray);
+		background-color: none;
+		position: relative;
+	}
+
+	& .listInput:checked {
+		background-color: var(--color-solid-light-gray);
+	}
+
+	& .listInput:checked:after{
+		content: '';
+		width: 9px;
+		height: 5px;
+		border: 3px solid #fff;
+		border-top: none;
+		border-right: none;
+		background: 0 0;
+		display: block;
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	& .filterTitle{
+		margin-top: .8rem;
+		font-size: 1rem;
+		color: var(--color-light-black);
+		padding-left: 5px;
+		letter-spacing: .03125rem;
+		font-weight: bold;
+	}
+
+	& .filterModalWrapper{
+			padding: 20px 12px;
+	}
+
+	& .resetdiv{
+		display: inline-block;
+	}
+
+	& .resetBtn{
+		font-size: .6875rem;
+		font-weight: 500;
+		border-radius: 3px;
+		background-color: var(--color-white);
+		border-color: var(--color-black);
+		color: var(--color-black);
+		text-transform: uppercase;
+		transition: none;
+		box-shadow: inset 1px 1px #000, inset -1px -1px #000;
+		min-width: initial;
+    padding: .625rem 1.25rem .6875rem;
+    line-height: 1rem;
+	}
+
+	& .doneBlock{
+		display: inline-block;
+		float: right;
+		margin-right: 10px;
+	}
+
+	& .doneBtn{
+		background-color: var(--color-red);
+		border-color: var(--color-dark-red);
+		color: var(--color-white);
+		font-size: .6875rem;
+		font-weight: 500;
+		border-radius: 3px;
+		min-width: initial;
+    padding: .625rem 1.25rem .6875rem;
+    line-height: 1rem;
+	}
+
+	& .filterModalClose{
+		text-align: right;
+		font-size: .6875rem;
+		margin:1rem 0.75rem 1rem 0;
+	}
+
+	& .needSpace{
+		margin: 0 5px;
+	}
+
+	& .errorBlockWrapper {
+		padding: 0 15px;
+	}
+
+	& .errorBlock{
+		color: var(--color-red);
+		border: 1px solid var(--color-red);
+		background-color: #ffeded;
+		font-size: 0.85rem;
+		width:100%;
+		float: left;
+		padding: 0.5rem;
+		margin: 1rem 0 0;
+	}
+
+	& .errorIconColor{
+		fill: var(--color-red);
+		color:var(--color-red);
+	}
+
+	& .facetWrap{
+		padding-top:20px;
+	}
+
+	& .facetFace{
+		float: left;
+		width: 85px;
+
+		& .clearBtn{
+				color: var(--color-light-black);
+				font-weight: normal;
+				font-size: 16px;
+		}
+	}
+
+	& .facetFacts{
+		float: left;
+		width: 70%;
+	}
+
+	& .facetItem{
+		display: inline-block;
+		margin-left:16px;
+	}
+
+	& .facetText{
+		text-transform: capitalize;
+		margin-right: 3px;
+		font-size: 0.75rem;
+	}
+}

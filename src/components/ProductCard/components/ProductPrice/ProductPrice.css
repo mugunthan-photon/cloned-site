@@ -1,0 +1,21 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+
+@import './themes/CartridgeTheme.css';
+@import './themes/ProductSearchTheme.css';
+
+.pricingWrapper {
+    padding-top: 5px;
+    & .priceWrapperClass {
+        white-space: normal;
+        line-height: 20px;
+        margin: 5px 0;
+
+        & .priceClass{
+            font-size: 1.25rem;
+        }
+    }
+
+    & .mapPriceClass{
+        font-size: 12px;
+    }
+}

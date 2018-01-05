@@ -1,0 +1,62 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+
+.productSearchContainer {
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+    
+    & .productSearchInputWrapper {
+        display: table-cell;
+        width: 90%;
+
+        & .productSearchTermBoxHeader {
+            color: var(--color-dark-solid-gray);
+            width: 100%;
+            font-weight: 500;
+            text-align: left;
+            border-top: 1px solid var(--color-gray);
+            padding: 5px 10px;
+            display: table;
+            font-weight: normal;
+
+            & .productSearchTermWrapper {
+                display: table-cell;
+                width: 100%;
+            }
+
+            & .productSearchTermButtonWrapper {
+                display: table-cell;
+                text-align: right;
+                & .typeaheadTermBoxButton {
+                    color: #2237d5;
+                }
+            }
+        }
+    }  
+}
+
+.pCard{
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.listWrapper{
+    & .listBodyClass{
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        
+        & .listStyleClass{
+            display: flex;
+            display: -webkit-flex;
+        
+            & .itemStyleClass{
+                display: flex!important;
+                display: -webkit-flex;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

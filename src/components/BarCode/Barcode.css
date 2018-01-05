@@ -1,0 +1,30 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.barcodeDetails {
+  & .couponInfo {
+    font: bold 14px/24px var(--open-sans);
+    text-transform: lowercase;
+    color: var(--color-gray-5);
+  }
+
+  & .couponOffInfo {
+    font: bold 24px/32px var(--main-font);
+    color: var(--color-gray-7);
+  }
+
+  & .showCouponDesc {
+    font: normal 12px/16px var(--open-sans);
+    color: var(--color-gray-6);
+    font-weight: normal;
+    margin: 5px 0;
+  }
+
+  & .barcode {
+    width: 237px;
+    height: 97px;
+    display: block;
+    margin: 0 auto;
+  }
+}

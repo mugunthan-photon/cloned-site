@@ -1,0 +1,43 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+
+.socialShare {
+    & button.share-icon {
+        padding-left: 18px;
+        min-width: 10px;
+        display: inline-block;
+    }
+    & a.share-icon {
+        padding-left: 0;
+      }
+    & .facebookIcon {
+        padding-left: 10px;
+      }
+    & .mailIcon, & .printIcon {
+        padding-left: 10px;
+        & .svg-icon {
+           width: 30px;
+           height: 30px;
+        }
+    }
+    & .mailIcon {
+        position: relative;
+        right: -5px;
+      }
+    
+    & .shareLabel {
+        font-size: 14px;
+        font-weight:bold;
+        font-family: var(--open-sans);
+        color: var(--color-gray-6);
+      }
+}
+
+.iconPath {
+    fill: var(--color-solid-light-gray);
+    color: var(--color-solid-light-gray);
+}
+.noPad {
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+
+.selectStoreContainer{
+    padding: 16px 0px 26px 0px;
+
+    & .selectStoresButton {
+        padding: 12px;
+        font-weight: bold;
+    }
+}

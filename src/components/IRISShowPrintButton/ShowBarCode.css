@@ -1,0 +1,89 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import '../../assets/styles/base/base.css';
+
+@media print {
+    html, body {
+          height:100%;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }
+        .barcodeWrapperWidth button{
+            display:none;
+        }
+        .barcodeDetailsWrapper button{
+            display:none;
+        }
+}
+
+.couponBarcode {
+    & .couponBarcodeBtn {
+        font: bold 14px/27px var(--main-primary-font);
+        color: var(--color-gray-6);
+        text-transform: capitalize;
+        padding: 3px 0 0;
+        height: 40px;
+    }
+
+    & .couponTnC {
+        font-size: 12px;
+        color: var(--color-gray-6);
+    }
+
+    & .detailsWrapper {
+      margin: 0 auto 16px;
+      text-align:center;
+    }
+
+    & .barcodeIcon {
+        position: relative;
+        top: -2px;
+    }
+}
+
+.buttonTheme{
+    width:240px;
+}
+.appliedModalTheme{
+    padding: 12px 12px 30px 12px;
+    @media (--viewport-md) {
+        width: 470px;
+    }
+    @media (--viewport-lg) {
+        width: 644px;
+    }
+    @media (--viewport-xl) {
+        width: 644px;
+    }
+    @media (--viewport-sm) {
+        width: 270px;
+    }
+}
+
+.appliedModalContentTheme {
+    text-align: center;
+    & .detailsWrapper {
+        & .buttonTheme {
+            width: 230px;
+            border-radius: 2px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);
+            border: solid 1px #c7cdd4;
+            padding: 0px;          
+        }
+    }
+    @media (--viewport-sm) {
+        margin-top:0;
+    }
+}
+
+.printBtnBlock {
+    & .printBtn {
+        font: bold 14px/24px 'Montserrat', arial, sans-serif;
+        padding: 0;
+        height: 32px;
+        text-transform: capitalize;
+        margin-top: 8px;
+    }
+}

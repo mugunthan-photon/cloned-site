@@ -1,0 +1,40 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+/* Configured to take the width of the container element */
+
+.googleMaps {
+    width: 100%;
+    height: 100%;
+}
+.googleWrapper{
+    height: 300px;
+
+    @media (--viewport-sm) {
+        height: 250px;
+    }
+}
+
+.plotMarkerStyle {
+    background-color: var(--color-seconday-turquoise);
+    width: 20px;
+    height: 20px;
+}
+
+.plotSelectedMarkerStyle, .plotMarkerStyle {
+    border-radius: 50% 50% 50% 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border: 1px solid var(--color-gray);
+}
+.plotSelectedMarkerStyle {
+    background-color:  var(--color-primary-brand-red);
+    width: 25px;
+    height: 25px;
+}

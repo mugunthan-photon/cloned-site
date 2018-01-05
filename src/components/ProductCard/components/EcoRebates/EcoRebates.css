@@ -1,0 +1,30 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+/*Eco Rebates is currently used only in gallery*/
+.ecoRebate {
+    font-family: var(--open-sans);
+    margin-top: 2px;
+    & .link {
+        font-size: 0.75rem;
+        color: var(--color-seconday-turquoise);
+        text-decoration: underline;
+    }
+    & .rebateModalBlock {
+        height: 79%;
+        @media (--viewport-lg-plus) {
+            height: 90%;
+        }
+    }
+
+    & .blockTheme {
+        @media (--viewport-lg-plus) {
+            overflow: visible;
+        }
+        height: 100%;
+        & div {
+            height: 100%;
+        }
+    }
+}

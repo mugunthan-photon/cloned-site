@@ -1,0 +1,49 @@
+.productCard {
+    &.productSearch{
+        display: flex; /* As the lower iPad version is fixed with the -webkit- we can make this as flex or inherit is fine */
+        display: -webkit-flex; /* For lower iPad Version */
+        width: 100%;
+
+        & .container{
+            
+            & .imgBlock {
+                & .imageDetails {
+                    height: auto;
+                }
+            }
+
+            & .detailsWrapper{
+                min-height: 10px;
+            }
+
+            &.grid {
+                & .imgBlock {
+                    height: 153px;
+                    min-width: 20px;
+                    min-height: 20px;
+                }
+            }
+
+            & .list{
+                & .imgBlock {
+                    display: flex;
+                    display: -webkit-flex; /* For lower iPad Version */
+                    width: 201px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    & .imageDetails {
+                        flex-direction: column;
+                        position: relative;
+                    }
+                }
+
+                & .detailsWrapper{
+                    width: auto;
+                    flex-grow: 1;
+                }
+            }
+
+        }   
+    }
+}

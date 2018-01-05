@@ -1,0 +1,296 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+/*!
+ * https://github.com/arqex/react-datetime
+ */
+
+[class*="rdt"] {
+  position: relative;
+  font-size: 14px;
+}
+
+[class*="previewOverlay"] {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: var(--color-gray-1);
+  border-bottom: 1px solid var(--color-gray);
+  text-align: center;
+  height: 32px;
+  display: block;
+  z-index: 12;
+}
+
+[class*="datepicker"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+[class*="doneButton"] {
+  background-color: var(--color-red);
+  padding: 5px 15px;
+  font-size: 14px;
+  color: var(--color-white);
+  margin: 5px 0 10px;
+  cursor: pointer;
+}
+
+[class*="btnShowCalendar"], [class*="lblShowCalendar"] {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+[class*="btnShowZone"] {
+  margin-left: 5px; 
+}
+
+[class*="btnShowCalendar"] {
+  padding: 5px 0 0;
+  text-align: center;
+  width: 30px;
+  cursor: pointer;
+}
+
+[class*="lblShowCalendar"] {
+  background-color: var(--color-gray-1);
+  font-size: 11px;
+}
+
+[class*="floatingCalendar"] {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+}
+[class*="rdt"] > input {
+  border: 1px solid var(--color-black);
+}
+
+[class*="rdtPicker"] {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding: 4px;
+  margin-top: 1px;
+  background: var(--color-white);
+}
+[class*="rdtOpen"] [class*="rdtPicker"] {
+  display: block;
+}
+[class*="rdtStatic"] [class*="rdtPicker"] {
+  box-shadow: none;
+  position: static;
+}
+
+[class*="rdtPicker"] [class*="rdtTimeToggle"] {
+  text-align: center;
+}
+
+[class*="rdtPicker"] table {
+  width: 100%;
+  margin: 0;
+}
+[class*="rdtPicker"] td,
+[class*="rdtPicker"] th {
+  text-align: center;
+  height: 28px;
+  vertical-align: middle;
+  border: 1px solid var(--color-gray);
+}
+[class*="rdtPicker"] td {
+  cursor: pointer;
+}
+
+[class*="rdtCounter"] [class*="rdtBtn"]:hover,
+[class*="rdtPicker"] button:hover,
+td[class*="rdtMonth"]:hover,
+[class*="rdtDays"] td:hover,
+td[class*="rdtYear"]:hover,
+[class*="rdtPicker"] td[class*="rdtToday"]:hover,
+[class*="rdtPicker"] td[class*="rdtHour"]:hover,
+[class*="rdtPicker"] td[class*="rdtMinute"]:hover,
+[class*="rdtPicker"] td[class*="rdtSecond"]:hover,
+[class*="rdtMonths"] th:hover,
+[class*="rdtYears"] th:hover,
+[class*="rdtSwitch"]:hover,
+[class*="rdtPicker"] [class*="rdtTimeToggle"]:hover {
+  background: var(--color-davy-gray);
+  cursor: pointer;
+}
+[class*="rdtPicker"] td[class*="rdtOld"],
+[class*="rdtPicker"] td[class*="rdtNew"] {
+  color: var(--color-light-gray-2);
+}
+[class*="rdtPicker"] td[class*="rdtToday"] {
+  position: relative;
+  color: var(--color-red);
+}
+[class*="rdtPicker"] td[class*="rdtToday"]:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid var(--color-havelock-blue);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+}
+
+[class*="rdtPicker"] thead tr:first-child th {
+  cursor: pointer;
+}
+
+[class*="rdtPicker"] td[class*="rdtActive"],
+[class*="rdtPicker"] td[class*="rdtActive"]:hover,
+[class*="rdtPicker"] [class*="rdtDays"] td:active,
+[class*="rdtPicker"] [class*="rdtDays"] th:active,
+[class*="rdtPicker"] [class*="rdtDays"] th:active:hover,
+[class*="rdtMonths"] th:active,
+[class*="rdtMonths"] th:active:hover,
+[class*="rdtMonths"] td:active,
+[class*="rdtMonths"] td:active:hover,
+[class*="rdtYears"] th:active,
+[class*="rdtYears"] th:active:hover,
+td[class*="rdtYear"]:active,
+td[class*="rdtYear"]:active:hover,
+[class*="rdtSwitch"]:active,
+[class*="rdtSwitch"]:active:hover,
+[class*="rdtPicker"] [class*="rdtDays"] td:active:hover {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+[class*="rdtPicker"] td[class*="rdtActive"][class*="rdtToday"]:before,
+[class*="rdtPicker"] td:active[class*="rdtToday"]:before {
+  border-bottom-color: var(--color-white);
+}
+[class*="rdtPicker"] td[class*="rdtDisabled"],
+[class*="rdtPicker"] td[class*="rdtDisabled"]:hover {
+  background: none;
+  color: var(--color-light-gray-2);
+  cursor: not-allowed;
+}
+
+[class*="rdtPicker"] td span[class*="rdtOld"] {
+  color: var(--color-light-gray-2);
+}
+[class*="rdtPicker"] td span[class*="rdtDisabled"],
+[class*="rdtPicker"] td span[class*="rdtDisabled"]:hover {
+  background: none;
+  color: var(--color-light-gray-2);
+  cursor: not-allowed;
+}
+[class*="rdtPicker"] th {
+  border-bottom: 1px solid var(--color-gray);
+}
+[class*="rdtPicker"] [class*="dow"] {
+  width: 14.2857%;
+  border-bottom: none;
+}
+[class*="rdtPicker"] th[class*="rdtSwitch"] {
+  width: 100px;
+}
+[class*="rdtPicker"] th[class*="rdtNext"],
+[class*="rdtPicker"] th[class*="rdtPrev"] {
+  font-size: 21px;
+  vertical-align: top;
+}
+
+[class*="rdtPrev"] span,
+[class*="rdtNext"] span {
+  display: block;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+[class*="rdtPicker"] th[class*="rdtDisabled"],
+[class*="rdtPicker"] th[class*="rdtDisabled"]:hover {
+  background: none;
+  color: var(--color-light-gray-2);
+  cursor: not-allowed;
+}
+
+[class*="rdtPicker"] tfoot {
+  border-top: 1px solid var(--color-gray);
+}
+
+[class*="rdtPicker"] button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+[class*="rdtPicker"] thead button {
+  width: 100%;
+  height: 100%;
+}
+
+td[class*="rdtMonth"],
+td[class*="rdtYear"] {
+  height: 50px;
+  width: 25%;
+  cursor: pointer;
+}
+
+[class*="rdtCounters"] {
+  display: inline-block;
+  font-size: 14px;
+}
+
+[class*="rdtCounters"] > div {
+  float: left;
+}
+
+[class*="rdtCounters"] [class*="rdtCounter"] {
+  height: 84px;
+  width: 30px;
+}
+
+[class*="rdtCounters"] [class*="rdtCounterSeparator"] {
+  line-height: 88px;
+  width: 10px;
+}
+
+[class*="rdtCounters"] [class*="rdtCounter"] [class*="rdtBtn"] {
+  line-height: 30px;
+  cursor: pointer;
+  display: block;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+[class*="rdtCounters"] [class*="rdtCounter"] [class*="rdtBtn"]:active {
+  background: var(--color-red);
+  color: var(--color-white);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+}
+[class*="rdtCounters"] [class*="rdtCounter"] [class*="rdtCount"] {
+  height: 30px;
+  line-height: 30px;
+}
+
+[class*="rdtMilli"] {
+  vertical-align: middle;
+  padding-left: 8px;
+  width: 48px;
+}
+
+[class*="rdtMilli"] input {
+  width: 100%;
+  margin-top: 37px;
+}
+
+[class*="rdtDayPart"] {
+  margin-top: 43px;
+}

@@ -1,0 +1,312 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+.footerListBlock {
+    background: var(--color-white);
+        
+    & .inline{
+        display: inline-block;
+    }
+
+    & .anchor{
+        color: var(--color-seconday-turquoise);
+        font-weight: bold;
+    }
+
+    & .anchor-nostyle{
+        color: inherit;
+        color: var(--color-gray-10);
+        @media (--viewport-lg-plus) {
+            float: left;
+            width: 100%;
+            text-align: left;
+            font-size: 12px;
+        }
+    }
+
+    & .anchor-nostyle.socialIcon{
+        & .socialIconText{
+
+            @media (--viewport-lg-plus) {
+                margin-left: 5px;
+            }
+        }
+    }
+
+  & .accordionContainer {
+    border-bottom-width: 0;
+  }
+
+  & .accordionSection {
+
+    & .panelHeader {
+      padding: 0.6rem 2rem;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.71;
+      color: var(--color-gray-5);
+      font-family: var(--open-sans);
+      margin: 0;
+      position: relative;
+      text-align: center;
+      border-bottom: 1px solid #f1f3f4;
+
+      & .iconBlock {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        display: none;
+      }
+    }
+
+    & > .panel {
+      max-height: 0;
+      overflow-y: hidden;
+    }
+
+    &.selected {
+      background-color: var(--color-white );
+      box-shadow: inset 0 0.125rem 0.125rem 0 rgba(0,0,0,.1);
+
+
+      & .panelHeader {
+        background-color: var(--color-white );
+        box-shadow: inset 0 0.125rem 0.125rem 0 rgba(0,0,0,.1);
+      }
+
+      & > .panel {
+        border-bottom: .0625rem solid #eee;
+        max-height: 1000px;
+        padding-bottom: 10px;
+        transition: max-height .1s ease-in;
+      }
+    }
+  }
+
+  & .jcpCreditWrap{
+        text-align: center;
+        border-top: 1px solid var(--color-gray-3);
+        padding: 1.5rem 1rem 2.8rem;
+        margin: 0 1rem;
+
+        @media (--viewport-sm) {
+            padding: 1.5rem 1rem;
+        }
+
+        & .imageClass{
+            width: 76px;
+            margin: 0px auto;
+            float: none;
+            @media (--viewport-md-plus) {
+                float: left;
+            }
+        }
+        & > h2{
+            font-family: var(--open-sans);
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.71;
+            text-align: center;
+            color: var(--color-gray-5);
+            padding: 5px;
+
+            @media (--viewport-md-plus) {
+                float: left;
+                padding: .7rem 1rem;
+            }
+        }
+
+        & ul {
+            display: inline-block;
+
+            & .footerJCPPrivacyListItem {
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 1.33;
+                float: left;
+                padding: 0 10px;
+                font-family: var(--open-sans);
+
+                & a{
+                    text-decoration: underline;
+                }
+            }
+            @media (--viewport-md-plus) {
+                padding: 0.9rem 0;
+                display: inherit;
+            }
+        }
+    }
+    & .footerNote {
+        padding: 30px 10px;
+
+        @media (--viewport-md-plus) {
+            padding: 30px 2rem;
+        }
+
+        & h2{
+            font-family: var(--open-sans);
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.71;
+            color: var(--color-gray-5);
+        }
+        & p {
+            font-family: var(--open-sans);
+            font-size: 12px;
+            line-height: 1.5;
+            color: var(--color-gray-10);
+
+        }
+    }
+
+    & .socialWrap{
+        padding: 5px 0 10px 0;
+        text-align: center;
+
+        @media (--viewport-sm) {
+            text-align: center;
+            padding: 1.5625rem 0 1rem;
+        }
+    }
+    & .socialWrap{
+        padding: 5px 0 10px 0;
+        text-align: center;
+    }
+    & .footerListItem,
+    & .footerJCPPrivacyListItem,
+    & .footerJCPTermsListItem {
+        padding: 0.2rem 3rem;
+        font-size: 14px;
+        line-height: 2.29;
+        display: block;
+        text-align: center;
+        color: var(--color-gray-10);
+        font-family: var(--open-sans);
+    }
+
+
+    & .adChoiceImg{
+        margin-top: -6px;
+        height: 25px;
+        width: 25px;
+        object-fit: contain;
+    }
+
+    & .socialShareBlock{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    & .footerLinksBlock{
+        display: table;
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem 1rem 0;
+
+        @media (--viewport-lg-plus) {
+            width: 100%;
+            padding: 2rem;
+        }
+
+        & .footerListItem,
+        & .footerJCPPrivacyListItem,
+        & .footerJCPTermsListItem {
+            border: 0;
+            padding:0.3rem 0;
+            text-align: left;
+        }
+    }
+
+    & .footerMainLinks{
+            display: table-row;
+    }
+
+    & .footerLinks{
+        display: table-cell;
+        text-align: left;
+        width:16.5%;
+
+        & h5{
+            font-weight: bold;
+            font-family: var(--open-sans);
+            color: var(--color-gray-5);
+            font-size: 14px;
+        }
+    }
+    & .copyRightWrap{
+        font-size: .6875rem;
+        color : var(--color-light-black);
+        text-align: center;
+        padding: 5px;
+        font-weight: 400;
+        background: var(--color-white);
+        box-shadow: 0 0px 2px 0 rgba(155, 165, 174, 0.5);
+
+        & .footerJCPTermsWrap:nth-child(2) {
+            font-weight: bold;
+        }
+        @media (--viewport-sm), (--viewport-md) {
+            & .privacyLegalLinks {
+
+                & .footerListItem,
+                & .footerJCPPrivacyListItem,
+                & .footerJCPTermsListItem {
+                    display: inline-block;
+                    padding: 0rem 0.3rem;
+                    border: 0;
+                    font-size: 12px;
+                    line-height: 1.33;
+                }
+            }
+
+            & li.inline{
+                font-size: 10px;
+                line-height: 1.6;
+                font-family: var(--open-sans);
+            }
+        }
+        @media (--viewport-lg-plus), (--viewport-xl) {
+            box-shadow: 0 0px 2px 0 rgba(155, 165, 174, 0.5);
+            display: flex;
+            & .privacyLegalLinks{
+                width:100%;
+                padding: 0 1.3rem;
+
+                & .footerJCPTermsWrap {
+                    float: left;
+                }
+                & .footerJCPTermsWrap,
+                & .footerJCPTermsBlock,
+                & .footerJCPTermsList,
+                & .footerJCPTermsListItem {
+                    display: inline-block;
+                    padding: 0;
+                    & a{
+                        width: auto;
+                        padding:0 5px;
+                    }
+                }
+                & .copyRightText{
+                    float: right;
+                    padding: 5px;
+                }
+            }  
+        }
+    }
+}
+
+/* *--
+    Applied to set the width max of 1440px as only the Bg need to expand upto the start and the end point of the screen 
+    To avoind unwantedly the util.css fully applied the container width class in the component whereever needed.
+
+    Note:
+    If any changes doing this values have to change it in Header.css, FooterLinks.css, Subscription.css, SecondayNavigation.css
+--* */
+.containerWidth {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}

@@ -1,0 +1,8 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import '../../assets/styles/fonts/fonts.css';
+
+.FindStoresPage {
+    background-color: var(--color-white);
+    height: 100%;
+}

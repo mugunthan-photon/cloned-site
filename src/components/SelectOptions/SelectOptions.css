@@ -1,0 +1,43 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.selectBlock {
+    position: relative;
+    border-radius: 2px;
+    background-color: var(--color-white);
+    box-shadow: 0 1px 2px 0 rgba(83, 95, 107, 0.5);
+    border: solid 1px var(--color-gray-3);
+
+    &:before {
+        content: "";
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid var(--color-black);
+        position: absolute;
+        top: 50%;
+        right: 28px;
+        margin-top: -2.5px;
+        pointer-events:none;
+    }
+
+    & .selectOption {
+        padding: 13px 50px 13px 0;
+        margin-left: 16px;
+        font: normal 16px var(--open-sans);
+        color: var(--color-gray-7);
+        -moz-appearance: none;
+
+        &.optionNotSelected {
+            color: var(--color-gray-7);
+        }
+    }
+}
+
+.singleSelOptBlock {
+      border: 1px solid var(--color-gray);
+      border-radius: 0 0 4px 4px;
+      box-shadow: 0 2px 3px 1px rgba(0,0,0,0.1);
+      background: var(--color-white);
+      width: 100%;
+      padding: 11px 0 11px 16px;
+}

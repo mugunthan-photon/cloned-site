@@ -1,0 +1,104 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/settings/util.css';
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+
+.helpSection {
+    color: var(--color-white);
+    background-color: var(--color-light-black);
+    padding: 7px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    letter-spacing: .03125rem;
+
+    & .helpSectionTitle {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        font-weight: bold;
+        margin-right: 3%;
+
+        @media (--viewport-classic-sm) {
+            font-size: 14px;
+        }
+    }
+
+    & .helpSectionList {
+        display: inline-block;
+        vertical-align: middle;
+        width: 630px;
+    }
+
+    & .helpListItem {
+        font-size: 12px;
+
+        @media (--viewport-classic-sm) {
+            font-size: 14px;
+        }
+    }
+
+    & .helpLink {
+        color: var(--color-white);
+        display: block;
+    }
+
+    & .helpIcon {
+        display: inline-block;
+        vertical-align: middle;
+        width: 24px;
+    }
+
+    & .helpDescription {
+        padding: 5px;
+        font-size:12px;
+        display: inline-block;
+        width: 80%;
+        vertical-align: middle;
+
+        @media (--viewport-classic-sm) {
+            width: 90%;
+            font-size: 14px;
+        }
+
+        & .helpDescStatus {
+            display: inline-block;
+        }
+    }
+
+    @media (--viewport-classic-sm) {
+        text-align: left;
+        padding: 16px;
+
+        & .helpSectionTitle {
+            display: block;
+            width: 100%;
+            margin-right: 0;
+        }
+
+        & .helpSectionList {
+            width: 100%;
+            display: block;
+
+            & .helpListBody {
+                overflow: hidden;
+                min-height: 118px;
+
+                & .helpListItem {
+                    width: 100%;
+                    display: block;
+                    margin-left: 0;
+
+                    & .helpLink {
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.helpIconColor {
+    fill: var(--color-white);
+}

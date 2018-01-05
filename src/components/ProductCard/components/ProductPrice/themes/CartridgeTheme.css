@@ -1,0 +1,45 @@
+.pricingWrapper{
+    &.cartridge{
+        min-height: 48px;
+        padding-top: 0;
+
+        & .cardPriceLabel {
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        & .cardSummaryLabel {
+            margin: 3px 0;
+        }
+        
+        & .priceWrapperClass{
+            white-space: normal;
+            line-height: 16px;
+            margin: 0;
+            height: 34px;
+            overflow: hidden;
+
+            & .sale {
+                font-size: 12px;
+            }
+
+            & .priceClass{
+                font-size: 13px;
+                display: block;
+            }
+        }
+
+        .salesummary {
+            white-space: nowrap;
+        }
+
+        @media (--viewport-sm) {
+            min-height: 34px;
+
+            & .cardSummaryLabel {
+                display: none;
+            }
+
+        }
+    }
+}

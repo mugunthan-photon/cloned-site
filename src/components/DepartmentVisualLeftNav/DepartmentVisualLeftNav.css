@@ -1,0 +1,87 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/settings/util.css';
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+
+.departmentVisualLeftNav {
+  /* width: 149px; Removed it here will control via grid in departments page itself */
+  & .navSubHeaderBlock {
+    background-color: var(--color-white);
+    padding: 8px;
+    margin-bottom: 8px;
+     
+    & .navSubHeader {
+      font: bold 14px/24px var(--main-font);
+      color: var(--color-gray-7);
+      border-bottom: 2px solid var(--color-gray-3);
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+    }
+
+    & .navSubHeaderItemLink {
+      font: normal 12px/24px var(--open-sans);
+      color: var(--color-seconday-turquoise);
+      margin-bottom: 8px;
+      text-transform: capitalize;
+      display: block;
+    }
+  }
+}
+
+.departmentVisualLeftNavMobile {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin: 0 1%;
+
+   & .navSubHeaderBlock {
+    background-color: var(--color-white);
+    padding: 8px;
+    margin-bottom: 8px;
+  
+    & .navSubHeader {
+      font: bold 14px/24px var(--main-font);
+      color: var(--color-gray-7);
+      border-bottom: 2px solid var(--color-gray-3);
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+    }
+
+    & .navSubHeaderItemLink {
+      font: normal 12px/24px var(--open-sans);
+      color: var(--color-seconday-turquoise);
+      margin-bottom: 8px;
+      text-transform: capitalize;
+      display: block;
+    }
+  }
+}
+
+.departmentVisualLeftNavTablet {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+
+   & .navSubHeaderBlock {
+    background-color: var(--color-white);
+    padding: 8px;
+    margin-bottom: 8px;
+  
+    & .navSubHeader {
+      font: bold 14px/24px var(--main-font);
+      color: var(--color-gray-7);
+      border-bottom: 2px solid var(--color-gray-3);
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+    }
+
+    & .navSubHeaderItemLink {
+      font: normal 12px/24px var(--open-sans);
+      color: var(--color-seconday-turquoise);
+      margin-bottom: 8px;
+      text-transform: capitalize;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,131 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.gridHeaderContainer {
+    font-family: var(--main-font);
+    margin-top: 16px;
+
+    & .gridTitleBlock{
+
+        & .gridTitle {
+            text-align: center;
+            font: bold 20px var(--main-font);
+            color: var(--color-gray-7);
+
+            @media (--viewport-md-plus) {
+                text-align: left;
+                font-size: 24px;
+            }
+            
+            @media (--viewport-lg-plus) {
+                font-size: 32px;
+            }
+        }
+    }
+
+    & .gridTimerBlock {
+        text-align: center;
+        font-size: 24px;
+        color:var(--color-branded-dark);
+        padding: 0px;
+        vertical-align: bottom;
+
+        @media (--viewport-md-plus) {
+            text-align: right;
+        }
+
+
+        & .timerText {
+             @media (--viewport-md-plus) {
+                display: block;
+            }
+        }
+
+        @media (--viewport-lg-plus) {
+            font-size: 32px;
+        }
+        
+        & .timeLeft {
+            & .timeLeftBlock {
+                float: left;
+            }
+
+            & .timeRightBlock {
+                float: none;
+
+               
+                & .remainingTime {
+                    font-weight: bold;
+                }
+
+                 & .daysLeft {
+                     display: none;
+
+                    @media (--viewport-md-plus) {  
+                        display: inline-block;
+                        font-weight: bold;
+                        margin-top: 0px;
+                        vertical-align: inherit;
+                    }
+
+                    @media (--viewport-lg-plus) {
+                                font-size: 32px;
+                    }
+                }
+
+                @media (--viewport-md-plus) {
+                    float: right;
+                }
+
+                & [class="timer-wrapper"] {
+                    padding: 0;
+                }
+
+                & .liveText {
+                    display: inline-block;
+
+                    & .liveTextLabel {
+                        display: none;
+                        
+                        @media (--viewport-md-plus) {
+                            display: inline-block;
+                            font: bold 24px var(--main-font);
+                            vertical-align: top;
+                            margin-top: 8px;
+                        }
+
+                         @media (--viewport-lg-plus) {
+                                font-size: 32px;
+                         }
+                    }
+                }
+
+                & .timerContainer {
+                        & .timer {
+                        overflow: auto;
+
+                        & .timerListItem {
+                            float: left;
+                            margin: 4px;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+
+                        & .timerText {
+                            display: block;
+                            font-size: 14px;
+                            margin-top: -8px;
+
+                                @media (--viewport-lg-plus) {
+                                    font-size: 18px;
+                                }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

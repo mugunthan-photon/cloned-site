@@ -1,0 +1,77 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+:global body.slide-panel-open {
+    overflow: hidden!important;
+}
+.panelHeader {
+    background-color: var(--color-seconday-turquoise);
+    color: var(--color-white);
+    font-size: 14px;
+    padding: 8px 16px;
+    width: 100%;
+    z-index: 10;
+
+@media (--viewport-sm) {
+    padding: 8px;
+}
+}
+
+.panelTitle {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.backIcon {
+    cursor: pointer;
+    stroke-width: 2;
+}
+
+.panelContent {
+    overflow: auto;
+    z-index: 101;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.toggleWrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    transition: all 0.5s linear;
+}
+
+.activeToggleWrapper {
+    display: block;
+    z-index: 100;
+}
+
+.detailsPanel {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: var(--color-white);
+    height: 100%;
+    transition: all 0.5s linear;
+    width: 422px;
+    right: -422px;
+
+@media (--viewport-sm) {
+    width: 100%;
+    right: -100%;
+}
+
+@media (--viewport-md) {
+    width: 392px;
+    right: -392px;
+}
+}
+
+.activeDetailsPanel {
+    z-index: 101;
+    right: 0;
+}

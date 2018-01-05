@@ -1,0 +1,26 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+.getApp{
+    border: .125rem solid var(--color-light-black);
+    border-radius: .1875rem;
+    text-align: center;
+    padding: .3125rem;
+    width: 95%;
+    max-width: 18.125rem;
+    color: #333;
+    margin: 2.5rem auto 0 auto; 
+    text-transform: uppercase;
+
+  & .anchor-nostyle{
+      color: inherit;
+  }
+
+  & .link{
+    font-size: 1rem;
+    color: var(--color-light-black);
+  }
+
+  & .iconMobile{
+      margin-right: 5px;
+  }
+}

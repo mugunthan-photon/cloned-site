@@ -1,0 +1,87 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.priceWrapper{
+  white-space: nowrap;
+  & .price {
+      font-size: 2rem;
+      color: var(--color-gray-7);
+      font-weight: bold;
+
+      /*@media screen and (--viewport-md) {
+          font-size: 25px;
+      }
+
+      @media screen and (--viewport-sm) {
+          font-size: 13px;
+      }*/
+  }
+
+  &.reducePriceFont{
+      white-space: normal;
+      & .price {
+          font-size: 1.25rem;
+      }
+  }
+}
+
+.sale {
+    font-size: 16px;
+    font-weight: bold;
+    color: #008a44;
+    text-transform: lowercase;
+}
+
+.clearence {
+    color: #cb0c0b;
+}
+
+.salesummary {
+    font-size: 12px;
+    line-height: 1.33;
+    color: #53606b;
+
+     & .percentageOff{
+        display: inline-block;
+    }
+}
+
+.marketingLabel {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #cb0c0b;
+}
+
+.mapPrice{
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #1c2024;
+}
+
+@media (--viewport-sm) {
+    .mapPrice{
+        font-family: var(--main-font);
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 1.85;
+        text-align: left;
+        color: #1c2024;
+    }
+}
+
+@media (--viewport-md) {
+    .mapPrice{
+        font-family: var(--main-font);
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 1.85;
+        text-align: left;
+        color: #1c2024;
+    }
+}

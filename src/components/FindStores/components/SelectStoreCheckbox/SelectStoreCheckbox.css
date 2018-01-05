@@ -1,0 +1,5 @@
+.checkboxWrapper {
+    & .checkboxLabel{
+        margin-top: -8px;
+    }
+}

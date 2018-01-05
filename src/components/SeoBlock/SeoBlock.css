@@ -1,0 +1,39 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+/* SEO Content Block Styles */
+.seoContent {
+    font: normal 14px/24px var(--open-sans);
+    color: var(--color-gray-7);
+    margin-top: 16px;
+
+    & .seoToggleBtn {
+        margin-top: 12px;
+
+        @media (--viewport-lg-plus) {
+            display: none;
+        }
+    }
+
+    & .seoContentHeight {
+        overflow: hidden;
+        height: 8.8rem;
+
+        @media (--viewport-lg-plus) {
+            height: auto;
+        }
+    }
+
+    & .seoContentTitle, & h2 {
+        font: bold 24px/32px var(--main-font) !important;
+        color: var(--color-gray-7) !important;
+        margin-bottom: 8px;
+    }
+
+    & a {
+        color: var(--color-seconday-turquoise);
+        text-decoration: underline;
+    }
+}
+/* SEO Content Block Styles Ends */

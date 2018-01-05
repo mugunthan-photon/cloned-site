@@ -1,0 +1,35 @@
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+:root {
+    --marginTop: 20px;
+}
+
+.storesWrap {
+    &.findAStorePage {
+        @media (--viewport-md), (--viewport-lg), (--viewport-xl), (--viewport-md-plus), (--viewport-lg-plus){
+             & .inputContainer{
+                 display: flex;
+                & .useMyLocationBtn {
+                    width: 30%;
+                    float: left;
+                    margin-top: var(--marginTop);
+                }
+
+                & .separator{
+                    width: 10%;
+                    float: left;
+                    margin-top: var(--marginTop);
+                }
+
+                & .searchWrap{
+                    width: 60%;
+                    float: left;
+                }
+            }
+        }
+
+        & .errorMessageWrapper{
+            margin-top: 10px;
+        }
+    }
+}

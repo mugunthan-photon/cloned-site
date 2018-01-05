@@ -1,0 +1,10 @@
+.SelectStoreContainer{
+    &.findAStorePage, &.selectAStore{
+        & .storeHoursAndSelectButtonContainer{
+            display: flex;
+            & .storeHoursContainer{
+                flex: 1;
+            }
+        }
+    }
+}

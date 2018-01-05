@@ -1,0 +1,72 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import '../../assets/styles/base/base.css';
+
+.lockBtnIcon {
+    fill: var(--color-white);
+    color: var(--color-white);
+}
+
+/* Serial Code Coupon Styles */
+.couponSerial {
+    text-align: center;
+
+    & .couponSerialStatus {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    & .serialNumberReq {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+
+    & .serialWrapper {
+        width: 240px;
+        display: inline-block;
+
+        & .serialNumber {
+            @media only screen and (min-width: 679px) and (max-width: 1280px) {
+                margin-right: -30px;
+            }
+        }
+    }
+
+& .serialInputFieldWrapper {
+        position: relative;
+        padding: 5px;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        border: solid 2px var(--color-seconday-turquoise);
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    & .serialInputField {
+        float: left;
+    }
+
+    & .resetIconBlock {
+        position: absolute;
+        right: 5px;
+    }
+}
+
+.hideInlineMessage {
+    display: none;
+}
+
+.showInlineMessage {
+    display: block;
+}
+
+.modalOverlay {
+    & .modalWrapper {
+       @media (--viewport-md) {
+           top: 45% ;
+       }
+        @media (--viewport-sm) {
+           top: 45% ;
+       }
+    }
+}

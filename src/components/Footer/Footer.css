@@ -1,0 +1,319 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/settings/util.css';
+
+.footerWrap{
+  letter-spacing: .03125rem;
+  font-family: var(--main-font);
+
+  & .inline{
+    display: inline-block;
+  }
+
+  & .anchor{
+      color: var(--color-anchor-color);
+      font-size: .625rem;
+  }
+
+  & .anchor-nostyle{
+      color: inherit;
+  }
+
+  & .helpWrap {
+      margin-top: 2.5rem;
+      background: var(--color-white);
+  }
+
+  & .getApp{
+      border: .125rem solid var(--color-light-black);
+      border-radius: .1875rem;
+      text-align: center;
+      padding: .3125rem;
+      width: 95%;
+      max-width: 18.125rem;
+      color: #333;
+      margin: 2.5rem auto 0 auto;
+      text-transform: uppercase;
+
+    & .link{
+      font-size: 1rem;
+      color: var(--color-light-black);
+    }
+  }
+
+  & .socialWrap{
+    padding: 5px 0 10px 0;
+    text-align: center;
+
+    @media (--viewport-sm) {
+      text-align: center;
+      padding: 1.5625rem 0 1rem;
+    }
+
+  }
+
+  & .accordionContainer {
+    border-bottom-width: 0;
+  }
+
+  & .accordionSection {
+
+    & .panelHeader {
+      padding: 1rem 2rem;
+      font-size: .875rem;
+      color: var(--color-solid-light-gray);
+      margin: 0;
+      font-weight: normal;
+      position: relative;
+
+      & .iconBlock {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+      }
+    }
+
+    & > .panel {
+      max-height: 0;
+      overflow-y: hidden;
+    }
+
+    &.selected {
+      background-color: var(--color-light-slim-gray );
+      box-shadow: inset 0 0.125rem 0.125rem 0 rgba(0,0,0,.1);
+
+
+      & .panelHeader {
+        background-color: var(--color-light-slim-gray );
+        box-shadow: inset 0 0.125rem 0.125rem 0 rgba(0,0,0,.1);
+      }
+
+      & > .panel {
+        border-bottom: .0625rem solid #eee;
+        max-height: 1000px;
+        padding-bottom: 10px;
+        transition: max-height .1s ease-in;
+      }
+    }
+  }
+
+  & .copyWrap{
+    font-size: .6875rem;
+    color : var(--color-light-black);
+    text-align: center;
+    padding: 5px;
+    margin: 30px 0 0;
+    font-weight: 400;
+  }
+
+  & .subscriptionWrap{
+      padding: 1rem 2rem;
+
+      & .subscriptionRow{
+          margin-bottom: 1rem;
+          width: 48%;
+          margin-right: 2%;
+          display: inline-block;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          @media (--viewport-sm) {
+            width: 100%;
+            margin-right: 0;
+          }
+
+          & .subsTitle{
+              font-size: .75rem;
+              line-height: 1rem;
+              margin-bottom: .3125rem;
+              color: var(--color-solid-light-gray);
+          }
+      }
+      & .subscriptionTerms{
+          font-size: .625rem;
+          margin: 1rem 0;
+          width: 100%;
+          color: var(--color-solid-light-gray);
+      }
+
+      & .subscribe{
+            background-color: var(--color-white);
+            border-radius: 4px 0 0 4px;
+            border-radius: 4px 0 0 4px;
+            box-shadow: inset 0 .0625rem .125rem 0 rgba(0,0,0,.5);
+            border: .0625rem solid #888;
+            color: var(--color-light-black);
+            padding: 0.645rem;
+      }
+  }
+  & .footerListBlock {
+    background: var(--color-white);
+
+    & .footerListItem,
+    & .footerJCPPrivacyListItem,
+    & .footerJCPTermsListItem {
+      text-align: left;
+      padding: 1rem 3rem;
+      border-top: 1px solid var(--color-davy-gray);
+      font-size: .75rem;
+      display: block;
+    }
+    & .footerJCPPrivacyListItem {
+      font-weight: bold;
+    }
+  }
+
+  & .socialShareBlock{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  & .footerLinksBlock{
+    display: table;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 1rem 0;
+
+    & .footerListItem,
+    & .footerJCPPrivacyListItem,
+    & .footerJCPTermsListItem {
+      border: 0;
+      padding:0.3rem 0;
+    }
+  }
+
+  & .subscribeBlock{
+    width: 98%;
+    margin: 0 auto;
+    padding: 1rem 1rem 0 1rem;
+
+    & .dealsTitle {
+      font-weight: 700;
+      color: var(--color-solid-light-gray);
+      font-size: 0.875rem;
+    }
+
+    & .subscriptionWrap{
+      padding: 0.5rem 0;
+    }
+  }
+
+  & .errorBlock{
+    color: var(--color-red);
+    border: 1px solid var(--color-red);
+    background-color: #ffeded;
+    font-size: 1rem;
+    width:92%;
+    float: left;
+    padding: 0.625rem;
+    margin: 15px 4% 0;
+    & .iconBlock {
+      display: inline-block;
+      vertical-align: top;
+      padding-right: 5px;
+    }
+    & .errorTextBlock {
+      vertical-align: middle;
+    }
+  }
+
+  & .footerMainLinks{
+    display: table-row;
+  }
+
+  & .footerLinks{
+    display: table-cell;
+      @media (--viewport-md) {
+          & h5{
+              font-weight: bold;
+          }
+      }
+  }
+}
+.customModalWrapper{
+    width:75%;
+    padding: 10px;
+}
+.customModalContent{
+    font-weight: 400;
+    letter-spacing: 0.03125rem;
+
+    & .modalTitle{
+      margin-bottom: .625rem;
+    }
+
+    & .modalPara {
+      font-size: .6875rem;
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+      padding-top: 1rem;
+      color: var(--color-light-black);
+    }
+
+    & .single{
+      border-top: 1px solid #ccc;
+    }
+}
+
+.customModalContent.customModalOfferMessage{
+    font-weight: 400;
+
+    & .modalTitle{
+        text-align: center;
+        font-size: 24px;
+        font-family: var(--main-font);
+        color: var(--color-gray-7);
+    }
+
+    & .modalPara {
+        font-size: 16px;
+        padding-top: 0;
+        padding-right: 0px;
+        letter-spacing: 0px;
+        font-family: var(--open-sans);
+        color: var(--color-gray-7);
+        /*@media (--viewport-lg-plus) {
+            font-size: 15px;
+        }*/
+    }
+
+    & .offerMessageButton {
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            width: 200px;
+            background: #cc0000;
+            box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);
+            color: #fff;
+            height: 48px;
+            border-radius: 2px;
+            margin-top: 30px;
+            font-family: var(--main-font);
+            letter-spacing: 0.5px;
+            font-size: 16px;
+    }
+}
+
+@media (--viewport-sm), (--viewport-md) {
+    .customModalWrapper{
+        width:85%;
+    }
+    .footerWrap {
+      & .copyWrap {
+        background: var(--color-davy-gray);
+        & .privacyLegalLinks {
+          margin-bottom: 5px;
+          & .footerListItem,
+          & .footerJCPPrivacyListItem,
+          & .footerJCPTermsListItem {
+            display: inline-block;
+            padding: 0.3rem 0.3rem;
+            border: 0;
+          }
+        }
+      }
+    }
+}

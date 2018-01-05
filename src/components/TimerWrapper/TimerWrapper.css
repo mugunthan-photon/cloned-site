@@ -1,0 +1,35 @@
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+
+
+.timer-wrapper {    
+    & .timerparent-wrapper {
+        & .livetext {
+            display: inline-block;
+            padding: 4px;
+        }
+        & .display-timer {
+            display: inline-block;        
+           & .timerContainer {
+                & .timer {
+                    & .timerListItem  {
+                        font-size: 16px;  
+                        float: left;
+                        margin-right: 8px;
+                        font-weight: bold;
+
+                        & .timerNumber {
+                            /* Any Css specific if required */
+                        }
+                    }
+
+                    & .timerText {
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,186 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+/*Importing custom themes*/
+@import './themes/FindAStorePage.css';
+@import './themes/SelectAStore.css';
+@import './themes/GalleryStore.css';
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    & .sameDayPickUpBlock{
+        background-color: var(--color-gray-0);
+        font-size: 12px;
+        line-height: 1.33;
+        padding: 16px 16px 8px 16px;
+    }
+
+    & .scrollableContainer {
+        padding-bottom: 110px;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    & .scrollableExtraMargin {
+        margin-bottom: 100px;
+    }
+
+    & .loaderListView {
+        position: relative;
+        flex: 1 1 auto;
+        & > div{
+            position: initial;
+        }
+    }
+
+    & .loadMoreContainer {
+        padding: 16px 8px 26px 8px;
+        background: var(--color-gray-0);
+
+        @media (--viewport-xl) {
+            padding: 16px 16px 26px 16px;
+        }
+
+        @media (--viewport-lg) {
+            padding: 16px 16px 26px 16px;
+        }
+
+        & .loadMoreButton {
+            background: var(--color-white);
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.5;
+            color: var(--color-gray-6);
+            padding: 12px;
+        }
+    }
+
+    & .errorMsgWrapper {
+        margin: 16px 0;
+        padding: 0 8px;
+    }
+
+    & .informationMsgWrapper {
+        margin: 16px;
+        padding: 0 8px;
+    }
+
+    & .mapWrapper{
+        width: 100%;
+        height: 300px;
+
+        @media (--viewport-sm) {
+            height: 250px;
+        }
+    }
+}
+.iconStyles {
+        text-align: center;
+        width: 50%;
+}
+.tabMain {
+    height: 100%;
+}
+
+.tabPanelContent {
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 16px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tab {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 12px;
+    color: var(--color-seconday-turquoise);
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    justify-content: center;
+
+    & .tabListItem:first-child {
+        margin-left: 0px;
+    }
+
+    & >.tabListItem {
+        margin-left: 16px;
+
+        & >.tabButton {
+            border: none;
+            outline: none;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 15px;
+
+            & >.tabPanelTitle {
+                cursor: pointer;
+                display: inline-block;
+                padding-right: 8px;
+                font-weight: bold;
+            }
+        }
+
+        &:hover {
+            background-color: #e7e9ed;
+        }
+
+        &.active {
+            background-color: #e7e9ed;
+
+            & .activeIcon {
+                display: inline-block;
+            }
+
+            & .activeText {
+                display: inline-block;
+                color: var(--color-gray-7);
+            }
+
+            & .inActiveListIcon {
+                display: none;
+            }
+
+            & .inActiveMapIcon {
+                display: none;
+            }
+
+            & .inActiveText {
+                display: none;
+            }
+        }
+    }
+}
+
+.center {
+   justify-content: center;
+}
+
+.start {
+   justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+
+.activeIcon {
+    display: none;
+}
+.activeText {
+    display: none;
+}
+
+.inActiveMapIcon {
+    stroke: var(--color-seconday-turquoise);
+}

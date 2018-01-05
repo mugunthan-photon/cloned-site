@@ -1,0 +1,2 @@
+export const OVERLAY_SHOW = 'OVERLAY_SHOW';
+export const OVERLAY_REMOVE = 'OVERLAY_REMOVE';

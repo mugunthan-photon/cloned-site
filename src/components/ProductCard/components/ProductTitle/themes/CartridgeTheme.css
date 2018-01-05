@@ -1,0 +1,7 @@
+.title{
+    &.cartridge{
+        line-height: 16px;
+        height: 32px;
+        margin: 0;
+    }
+}

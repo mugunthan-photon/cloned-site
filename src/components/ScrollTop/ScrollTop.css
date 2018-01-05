@@ -1,0 +1,68 @@
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+.scrollTop{
+    position: fixed;
+    right: -60px;
+    bottom: 50px;
+    z-index: 5;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    min-width: 48px;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    background: none;
+    display: none;
+
+    &:hover {
+        box-shadow: none;
+    }
+
+    & .wrapper{
+        width: 55px;
+    }
+
+    & .backTop{
+        fill: #384048;
+    }
+}
+
+.slideIn {
+    display: block;
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+.slideOut {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-out {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slide-in {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%);}
+}
+
+@media (--viewport-sm) {
+    .scrollTop{
+        right: -55px;
+        bottom: 35px;
+
+        & .wrapper{
+            width: 48px;
+        }
+    }
+}
+
+@media (--viewport-md) {
+    .scrollTop{
+        right: -60px;
+        bottom: 35px;
+    }
+}
+

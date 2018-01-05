@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "es2015",
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        [
+            "add-module-exports",
+            "transform-runtime", {
+            "polyfill": false,
+            "regenerator": true
+        },
+            "transform-class-properties",
+            "transform-decorators-legacy",
+            "transform-es2015-modules-umd"
+        ]
+    ]
+}

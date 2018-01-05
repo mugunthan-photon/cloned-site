@@ -1,0 +1,699 @@
+[
+    {
+        "disclaimerTemplate": "*Extra 20% off select home purchases with your JCPenney Credit Card or extra 15% off with any other method of payment. Extra 15% off select furniture, mattresses, custom blinds and shades purchases with any method of payment. Each offer good in store and at jcp.com, excluding taxes and shipping charges, @ @offerStartDate - @offerEndDate offerStartDate - @offerEndDate. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. JCPenney Credit Card must be used to get the 20% off discount. Subject to credit approval. <br/><br/>Does not apply to Best Value, Levis, Nike, Columbia, Fisher-Price, Food, Penney Lane, Electrics/Electronics, Appliances, Hunter Douglas, Tempur-Pedic, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store purchases, current orders and prior purchases, or in combination with other coupon(s). Coupon can be combined with earned JCPenney Rewards and JCPenney Credit Card new account in-store discount. Coupon cannot be used for payment on account. Coupon cannot be redeemed as cash or merchandise credit if merchandise is returned. No cash value. JCPenney may refuse, or limit the use of, any coupon and/or return for any reason, including reoccurring disruptive behavior. REPRODUCTIONS WILL NOT BE ACCEPTED. <br/><br/>INSTRUCTIONS FOR JCP.COM ORDERS: Enter online code BUYHOME4 when prompted at checkout or call 1.800.322.1189 and mention the code.",
+        "offerStartDate": "2017-06-15T00:00:00-05:00",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGrzfOXJGKkjvqzdqt7XzanzdNRN9OiWtVXMtX%3DWQpglLjHJlYQGiSnpJ3ElMLzalzb2KffuXqlewO7Szd&_ei_=Ej0KgVL1epkCxoXFGvzWx-4",
+        "linkUrl": "/g/home-store/N-bwo3v?cm_re=CPN-_-0309-_-BUYHOME4-STR-OL_SH",
+        "redeemingChannel": "instore",
+        "linkText": "shop sales",
+        "promoCode": "BUYHOME4",
+        "offerEndDate": "2017-06-28T23:59:59-05:00",
+        "disclaimer": "*Extra 20% off select home purchases with your JCPenney Credit Card or extra 15% off with any other method of payment. Extra 15% off select furniture, mattresses, custom blinds and shades purchases with any method of payment. Each offer good in store and at jcp.com, excluding taxes and shipping charges, @ 06-15-2017 12:00AM - 06-28-2017 11:00PM offerStartDate - 06-28-2017 11:00PM. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. JCPenney Credit Card must be used to get the 20% off discount. Subject to credit approval. <br/><br/>Does not apply to Best Value, Levis, Nike, Columbia, Fisher-Price, Food, Penney Lane, Electrics/Electronics, Appliances, Hunter Douglas, Tempur-Pedic, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store purchases, current orders and prior purchases, or in combination with other coupon(s). Coupon can be combined with earned JCPenney Rewards and JCPenney Credit Card new account in-store discount. Coupon cannot be used for payment on account. Coupon cannot be redeemed as cash or merchandise credit if merchandise is returned. No cash value. JCPenney may refuse, or limit the use of, any coupon and/or return for any reason, including reoccurring disruptive behavior. REPRODUCTIONS WILL NOT BE ACCEPTED. <br/><br/>INSTRUCTIONS FOR JCP.COM ORDERS: Enter online code BUYHOME4 when prompted at checkout or call 1.800.322.1189 and mention the code.",
+        "offers": [
+            {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME",
+                "barCode": "MC4557510003000000495120"
+            },
+            {
+                "bodyCopy": "15% with any method of payment",
+                "headLine": "EXTRA 15% OFF HOME",
+                "barCode": "MC4557500003000000495115"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "730a5d89-1661-47c5-80e1-edf06bb3764e",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "High1",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 15,
+            "publishingStartDate": "2017-06-27T13:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing High Priority Coupon",
+        "offerStartDate": "2017-06-27T13:00:00-05:00",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGu5EbWR4RYi6cDFuDazcC8kEqaaRpVXMtX%3DWQpglLjHJlYQGrRrN4dhRk773pX6GGzdBe06YtUW4&_ei_=Eo6p4C0Ah-mFCkXROSGeX60",
+        "redeemingChannel": "all",
+        "linkText": "find a store",
+        "linkUrl": "https://m.jcpenney.com/g/home-store/N-bwo3v?cm_re=CPN-_-0309-_-BUYHOME4-STR-OL_SH",
+        "promoCode": "Test High1",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing High Priority Coupon",
+        "offers": [
+            {
+                "bodyCopy": "Test High1",
+                "headLine": "High1",
+                "barCode": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGu5EbWR4RYi6cDFuDazcC8kEqaaRpVXMtX%3DWQpglLjHJlYQGrRrN4dhRk773pX6GGzdBe06YtUW4&_ei_=Eo6p4C0Ah-mFCkXROSGeX60"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "7572e3e5-3af9-46b9-b6cb-1009aef4571d",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "DRDOFFNW",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 15,
+            "publishingStartDate": "2017-06-21T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "admin"
+        },
+        "id": "sample",
+        "disclaimerTemplate": " @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate ",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGNza74OzazeonrN9nK94NzaLzawRzezdsdzeVXMtX%3DWQpglLjHJlYQGoNS7wzdbpG63XOzaSHtfq4MX0cFdX&_ei_=Ep_afEHCxrZPNfQsUxylm6I",
+        "linkUrl": "http://dt-test1.jcpenney.com/g/appliances/N-1b2ke21?pageType=X2H2",
+        "redeemingChannel": "all",
+        "linkText": "SHOP SALES",
+        "promoCode": "DRDOFFUR",
+        "disclaimer": " 2017-06-21 12:00AM - 2017-06-30 11:00PM  2017-06-21 12:00AM - 2017-06-30 11:00PM  2017-06-21 12:00AM - 2017-06-30 11:00PM  2017-06-21 12:00AM - 2017-06-30 11:00PM ",
+        "offers": [
+            {
+                "bodyCopy": "Test Body Copy 1",
+                "headLine": "Test Headline1",
+                "barCode": "MC4558750003000000316210"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "7572e3e5-3af9-46b9-b6cb-1009aef4571d",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "DRDOFFNW",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 15,
+            "publishingStartDate": "2017-06-21T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "admin"
+        },
+        "id": "sample",
+        "disclaimerTemplate": " @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate ",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGNza74OzazeonrN9nK94NzaLzawRzezdsdzeVXMtX%3DWQpglLjHJlYQGoNS7wzdbpG63XOzaSHtfq4MX0cFdX&_ei_=Ep_afEHCxrZPNfQsUxylm6I",
+        "linkUrl": "http://dt-test1.jcpenney.com/g/appliances/N-1b2ke21?pageType=X2H2",
+        "redeemingChannel": "all",
+        "linkText": "find a store",
+        "promoCode": "DRDOFFUR",
+        "disclaimer": " 2017-06-21 12:00AM - 2017-06-30 11:00PM  2017-06-21 12:00AM - 2017-06-30 11:00PM  2017-06-21 12:00AM - 2017-06-30 11:00PM  2017-06-21 12:00AM - 2017-06-30 11:00PM ",
+        "offers": [
+            {
+                "bodyCopy": "Test Body Copy 1",
+                "headLine": "Test Headline1",
+                "barCode": "MC4558750003000000316210"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "4a8ab08f-d301-4509-a095-4231df8a6516",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "week_06_BUYHOME4",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-21T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T00:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "admin"
+        },
+        "disclaimerTemplate": "*Extra 20% off select home purchases with your JCPenney Credit Card or extra 15% off with any other method of payment. Extra 15% off select furniture, mattresses, custom blinds and shades purchases with any method of payment. Each offer good in store and at jcp.com, excluding taxes and shipping charges, @offerStartDate - @offerEndDate. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. JCPenney Credit Card must be used to get the 20% off discount. Subject to credit approval. <br/><br/>Does not apply to Best Value, Levis, Nike, Columbia, Fisher-Price, Food, Penney Lane, Electrics/Electronics, Appliances, Hunter Douglas, Tempur-Pedic, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store purchases, current orders and prior purchases, or in combination with other coupon(s). Coupon can be combined with earned JCPenney Rewards and JCPenney Credit Card new account in-store discount. Coupon cannot be used for payment on account. Coupon cannot be redeemed as cash or merchandise credit if merchandise is returned. No cash value. JCPenney may refuse, or limit the use of, any coupon and/or return for any reason, including reoccurring disruptive behavior. REPRODUCTIONS WILL NOT BE ACCEPTED. <br/><br/>INSTRUCTIONS FOR JCP.COM ORDERS: Enter online code BUYHOME4 when prompted at checkout or call 1.800.322.1189 and mention the code.",
+        "offerStartDate": "2017-06-21T00:00:00-05:00",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGrzfOXJGKkjvqzdqt7XzanzdNRN9OiWtVXMtX%3DWQpglLjHJlYQGiSnpJ3ElMLzalzb2KffuXqlewO7Szd&_ei_=Ej0KgVL1epkCxoXFGvzWx-4",
+        "linkUrl": "/g/home-store/N-bwo3v?cm_re=CPN-_-0309-_-BUYHOME4-STR-OL_SH",
+        "redeemingChannel": "all",
+        "linkText": "shop sale",
+        "promoCode": "BUYHOME4",
+        "offerEndDate": "2017-06-28T00:59:59-05:00",
+        "disclaimer": "*Extra 20% off select home purchases with your JCPenney Credit Card or extra 15% off with any other method of payment. Extra 15% off select furniture, mattresses, custom blinds and shades purchases with any method of payment. Each offer good in store and at jcp.com, excluding taxes and shipping charges, 06-21-2017 12:00AM - 06-28-2017 12:00AM. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. JCPenney Credit Card must be used to get the 20% off discount. Subject to credit approval. <br/><br/>Does not apply to Best Value, Levis, Nike, Columbia, Fisher-Price, Food, Penney Lane, Electrics/Electronics, Appliances, Hunter Douglas, Tempur-Pedic, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store purchases, current orders and prior purchases, or in combination with other coupon(s). Coupon can be combined with earned JCPenney Rewards and JCPenney Credit Card new account in-store discount. Coupon cannot be used for payment on account. Coupon cannot be redeemed as cash or merchandise credit if merchandise is returned. No cash value. JCPenney may refuse, or limit the use of, any coupon and/or return for any reason, including reoccurring disruptive behavior. REPRODUCTIONS WILL NOT BE ACCEPTED. <br/><br/>INSTRUCTIONS FOR JCP.COM ORDERS: Enter online code BUYHOME4 when prompted at checkout or call 1.800.322.1189 and mention the code.",
+        "offers": [
+            {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME",
+                "barCode": "MC4557510003000000495120"
+            },
+            {
+                "bodyCopy": "15% with any method of payment",
+                "headLine": "EXTRA 15% OFF HOME",
+                "barCode": "MC4557500003000000495115"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "c381becd-6341-48b8-9d6b-9193df50f6ce",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "week_04_JEWELS4",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-15T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "admin"
+        },
+        "disclaimerTemplate": "*20% off select original and regular-priced watch purchases. 40% off select original and regular-priced fine jewelry and Modern Bride purchases. 60% off select original and regular-priced gold and silver jewelry purchases. Offers good at jcp.com only, excluding taxes and shipping charges, 2/21/17-2/22/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. <br/><br/>Offers do not apply to SALE or CLEARANCE items, Best Value, Modern Bride Diamond Vault, Citizen Quartz, Garmin, Personalized Jewelry, Limited Time Specials, Purchase with Purchase Items, Home Services, Service Plans, Gift Cards, current orders and prior purchases, or in combination with other coupon(s). Coupon can be combined with earned JCPenney Rewards. Coupon cannot be used for payment on account. Coupon cannot be redeemed as cash or merchandise credit if merchandise is returned. No cash value. JCPenney may refuse, or limit the use of, any coupon and/or return for any reason, including reoccurring disruptive behavior. REPRODUCTIONS WILL NOT BE ACCEPTED. <br/><br/>INSTRUCTIONS FOR JCP.COM ORDERS: Enter online code JEWELS4 when prompted at checkout or call 1.800.322.1189 and mention the code...",
+        "offerStartDate": "2017-06-15T00:00:00-05:00",
+        "linkUrl": "/g/jewelry-and-watches/N-bwo44?cm_re=CPN-_-0221-_-JEWELS4-OL_SJ",
+        "redeemingChannel": "online",
+        "linkText": "Shop Sale",
+        "promoCode": "JEWELS4",
+        "offerEndDate": "2017-06-30T23:59:00-05:00",
+        "disclaimer": "*20% off select original and regular-priced watch purchases. 40% off select original and regular-priced fine jewelry and Modern Bride purchases. 60% off select original and regular-priced gold and silver jewelry purchases. Offers good at jcp.com only, excluding taxes and shipping charges, 2/21/17-2/22/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. <br/><br/>Offers do not apply to SALE or CLEARANCE items, Best Value, Modern Bride Diamond Vault, Citizen Quartz, Garmin, Personalized Jewelry, Limited Time Specials, Purchase with Purchase Items, Home Services, Service Plans, Gift Cards, current orders and prior purchases, or in combination with other coupon(s). Coupon can be combined with earned JCPenney Rewards. Coupon cannot be used for payment on account. Coupon cannot be redeemed as cash or merchandise credit if merchandise is returned. No cash value. JCPenney may refuse, or limit the use of, any coupon and/or return for any reason, including reoccurring disruptive behavior. REPRODUCTIONS WILL NOT BE ACCEPTED. <br/><br/>INSTRUCTIONS FOR JCP.COM ORDERS: Enter online code JEWELS4 when prompted at checkout or call 1.800.322.1189 and mention the code...",
+        "offers": [
+            {
+                "bodyCopy": "*60% on select original & regular priced gold & silver jewelry, 40% on select original & regular priced fine jewelry & Modern Bride, 20% on select original & regular priced watches",
+                "headLine": "JEWELRY - 20-60% OFF"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "caad4abc-6f6b-4baa-a52c-33183b3bd56a",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "week_22_06.26_-_06.28_26BUYNOW",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-26T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "KKAKOLU"
+        },
+        "disclaimerTemplate": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  @offerStartDate - @offerEndDate at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offerStartDate": "2017-06-26T00:00:00-05:00",
+        "linkUrl": "/index.jsp?cm_re=CPN-_-00626-_-22BUYNOW-OL_SN",
+        "redeemingChannel": "online",
+        "linkText": "shop now",
+        "promoCode": "22BUYNOW",
+        "offerEndDate": "2017-07-28T23:59:59-05:00",
+        "disclaimer": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  06-26-2017 12:00AM - 07-28-2017 11:00PM at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offers": [
+            {
+                "bodyCopy": "select original & regular priced apparel, accessories, fine jewelry & home + FREE SHIPPING",
+                "headLine": "65% OFF $100+ "
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "bdd01fd9-e349-47c4-9cb7-eae7fb3a43bb",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "wegerhryjty",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-27T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "KKAKOLU"
+        },
+        "disclaimerTemplate": " @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate ",
+        "offerStartDate": "2017-06-27T00:00:00-05:00",
+        "barCodeUrl": "nhgfmjg",
+        "linkUrl": "/link",
+        "redeemingChannel": "all",
+        "promoCode": "hyrng",
+        "linkAppUrl": "/linkapp",
+        "offerEndDate": "2017-06-28T23:59:59-05:00",
+        "disclaimer": " 06-27-2017 12:00AM - 06-28-2017 11:00PM  06-27-2017 12:00AM - 06-28-2017 11:00PM  06-27-2017 12:00AM - 06-28-2017 11:00PM ",
+        "offers": [
+            {
+                "bodyCopy": "Boday",
+                "headLine": "Head"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "4f446f6e-d72d-469e-9677-9a93a45f256a",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "week_22_06.26_-_06.28_26BUYNOW_1_2",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-26T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "KKAKOLU"
+        },
+        "disclaimerTemplate": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  @offerStartDate - @offerEndDate at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offerStartDate": "2017-06-26T00:00:00-05:00",
+        "linkUrl": "/index.jsp?cm_re=CPN-_-00626-_-22BUYNOW-OL_SN",
+        "redeemingChannel": "online",
+        "linkText": "shop now",
+        "promoCode": "32BUYNOW",
+        "offerEndDate": "2017-07-28T23:59:59-05:00",
+        "disclaimer": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  06-26-2017 12:00AM - 07-28-2017 11:00PM at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offers": [
+            {
+                "bodyCopy": "select original & regular priced apparel, accessories, fine jewelry & home + FREE SHIPPING",
+                "headLine": "65% OFF $100+ "
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "eda8d8c1-4581-4dbb-8c94-4cf75046b2b0",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "week_22_06.26_-_06.28_22BUYNOW",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-26T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "KKAKOLU"
+        },
+        "disclaimerTemplate": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  @offerStartDate - @offerEndDate at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offerStartDate": "2017-06-26T00:00:00-05:00",
+        "linkUrl": "/index.jsp?cm_re=CPN-_-00626-_-22BUYNOW-OL_SN",
+        "redeemingChannel": "online",
+        "linkText": "shop now",
+        "promoCode": "22BUYNOW",
+        "offerEndDate": "2017-07-28T23:59:59-05:00",
+        "disclaimer": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  06-26-2017 12:00AM - 07-28-2017 11:00PM at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offers": [
+            {
+                "bodyCopy": "select original & regular priced apparel, accessories, fine jewelry & home + FREE SHIPPING",
+                "headLine": "65% OFF $100+ "
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "4806a539-3c88-4ecc-8ab5-575945c113ec",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "06.25_SALEDAY7_06.27-copy",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-25T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "TEST OFFER DATE  @offerStartDate - @offerEndDate  TEST OFFER DATE",
+        "offerStartDate": "2017-06-25T00:00:00-05:00",
+        "linkUrl": "http://www.jcpenney.com/g/sales-deals/N-1b0cnoo?pageType=X2H2&cm_re=CPN-_-0614-_-SALEDAY7-OL_SS",
+        "redeemingChannel": "online",
+        "linkText": "SHOP SALES",
+        "promoCode": "SALEDAY7",
+        "offerEndDate": "2017-06-27T23:59:00-05:00",
+        "disclaimer": "TEST OFFER DATE  2017-06-25 12:00AM - 2017-06-27 11:00PM  TEST OFFER DATE",
+        "offers": [
+            {
+                "bodyCopy": "select apparel, shoes, accessories, fine jewelry & home",
+                "headLine": "EXTRA 30% OFF $300+"
+            },
+            {
+                "headLine": "EXTRA 20% OFF $200+"
+            },
+            {
+                "headLine": "EXTRA 10% OFF $100+"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "45f9eda5-46db-43fc-a4df-0d48e3a8107b",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "week_22_06.26_-_06.28_26BUYNOW_1",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 10,
+            "publishingStartDate": "2017-06-26T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-31T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "KKAKOLU"
+        },
+        "disclaimerTemplate": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  @offerStartDate - @offerEndDate at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offerStartDate": "2017-06-26T00:00:00-05:00",
+        "linkUrl": "/index.jsp?cm_re=CPN-_-00626-_-22BUYNOW-OL_SN",
+        "redeemingChannel": "online",
+        "linkText": "shop now",
+        "promoCode": "32BUYNOW",
+        "offerEndDate": "2017-07-31T23:59:59-05:00",
+        "disclaimer": "\"*50% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $40 or more. 65% off select original and regular-priced apparel, accessories, fine jewelry and home purchases of $100 or more. Extra 25% off select original and regular-priced women?s footwear, handbags, Haggar, Lee, men?s workwear, watches, electrics/electronics, storage & organization, custom blinds and shades, kitchen and dining, accent furniture, mattresses and floor care. Extra 25% off select sale and clearance-priced apparel, shoes, accessories, fine jewelry and home purchases. Each offer good at jcp.com only, excluding taxes and shipping charges, 6/26/17-6/28/17. One use per coupon, one coupon per customer; must be provided/surrendered at time of purchase. Dollar-off offers (including JCPenney Rewards) applied prior to companywide percent-off discounts or coupons.  \n\nOriginal and regular-priced offers do not apply to BOGO?s, sale or clearance-priced items; all offers do not apply to Low Price Everyday, Best Value, Levi?s, Bras, Men?s and Kid?s Underwear and Socks, Disney Collection, Disney Tsum Tsum, Fisher-Price, Licensed Team Sports Merchandise, Branded Athletic Apparel, Columbia, Nike, adidas, Converse, Athletic Shoes, Men?s and Kid?s Shoes, Original and Regular-Priced Skechers, Journee Collection, Keds/Grasshoppers, Flexxus, Spring Step, NurseMates, Earth Origins, City Streets, Dockers, Jewelry Trunk Shows, Modern Bride Diamond Vault, Fashion Jewelry, Sale and Clearance-Priced Watches, Citizen Quartz, Garmin, Sephora, Food, Penney Lane, Sale and Clearance-Priced Electrics/Electronics, Appliances, KitchenAid, NuWave, NutriBullet, Tristar, Smart Home, As Seen On TV, Travel Accessories, Hunter Douglas, Tempur-Pedic, Sale and Clearance-Priced Floor Care, Home D?cor, Fitness Equipment and Accessories, Sporting Goods and Outdoor, Pet Care, Toys, Baby Furniture, Baby Gear, Personalized Jewelry, Wigs and Extensions, Limited Time Specials, Purchase with Purchase Items, In-Store Services, Home Services, Service Plans, Gift Cards, Furniture Outlet purchases, Closing Store Purchases, current orders and prior purchases, or in combination with other coupon(s). \n\nFree Shipping valid  06-26-2017 12:00AM - 07-31-2017 11:00PM at jcp.com only: Applies to standard delivery (4-7 business days) on select online purchases with online code to a home, office, dorm anywhere within the United States or its territories, or to a JCPenney store. You will be contacted when your order arrives in store. Free shipping offers do not apply to large/heavy items delivered via truck.\n\nShipping Surcharges: To ensure your order reaches you safely, additional shipping charges may apply to some heavy or bulky items due to size, weight or special handling required. These additional shipping fees will be noted below the price of the item on the product page and at checkout. \n\nINSTRUCTIONS FOR JCP.COM ORDERS: Enter online code 22BUYNOW when prompted at checkout or call 1.800.322.1189 and mention the code.   \"",
+        "offers": [
+            {
+                "bodyCopy": "select original & regular priced apparel, accessories, fine jewelry & home + FREE SHIPPING",
+                "headLine": "65% OFF $100+ "
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "bab6377c-24ed-474a-9d06-ca188a268eb9",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "DPRVISAN",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-21T00:00:00.000-05:00",
+            "publishingEndDate": "2017-07-28T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "admin"
+        },
+        "disclaimerTemplate": " @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate  @offerStartDate - @offerEndDate ",
+        "offerStartDate": "2017-06-21T00:00:00-05:00",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGNza74OzazeonrN9nK94NzaLzawRzezdsdzeVXMtX%3DWQpglLjHJlYQGoNS7wzdbpG63XOzaSHtfq4MX0cFdX&_ei_=Ep_afEHCxrZPNfQsUxylm6I",
+        "linkUrl": "http://dt-test1.jcpenney.com/g/appliances/N-1b2ke21?pageType=X2H2",
+        "redeemingChannel": "online",
+        "linkText": "SHOP SALES",
+        "promoCode": "DRPRVISAN",
+        "offerEndDate": "2017-06-27T23:59:00-05:00",
+        "disclaimer": " 2017-06-21 12:00AM - 2017-06-27 11:00PM  2017-06-21 12:00AM - 2017-06-27 11:00PM  2017-06-21 12:00AM - 2017-06-27 11:00PM  2017-06-21 12:00AM - 2017-06-27 11:00PM ",
+        "offers": [
+            {
+                "bodyCopy": "Test Body Copy 1",
+                "headLine": "Test Headline1",
+                "barCode": "MC4558750003000000316210"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "d7aeb255-fcf1-4ced-af97-5d261bd386c2",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "Low",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-27T11:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing  Low Coupon Priority",
+        "offerStartDate": "2017-06-27T11:00:00-05:00",
+        "redeemingChannel": "all",
+        "promoCode": "Test Low Coupon",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing  Low Coupon Priority",
+        "offers": [
+            {
+                "headLine": "Test Low Coupon1"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "d7aeb255-fcf1-4ced-af97-5d261bd386c2",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "Low",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-27T11:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing  Low Coupon Priority",
+        "offerStartDate": "2017-06-27T11:00:00-05:00",
+        "redeemingChannel": "all",
+        "promoCode": "Test Low Coupon",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing  Low Coupon Priority",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGrzfOXJGKkjvqzdqt7XzanzdNRN9OiWtVXMtX%3DWQpglLjHJlYQGiSnpJ3ElMLzalzb2KffuXqlewO7Szd&_ei_=Ej0KgVL1epkCxoXFGvzWx-4",
+        "offers": [
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME",
+                "barCode": ""
+            },
+            {
+                "bodyCopy": "15% with any method of payment",
+                "headLine": "EXTRA 15% OFF HOME",
+                "barCode": ""
+            },
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME",
+                "barCode": "MC4557510003000000495120"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "d7aeb255-fcf1-4ced-af97-5d261bd386c2",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "Low",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-27T11:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing  Low Coupon Priority",
+        "offerStartDate": "2017-06-27T11:00:00-05:00",
+        "redeemingChannel": "all",
+        "promoCode": "Test Low Coupon",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing  Low Coupon Priority",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGrzfOXJGKkjvqzdqt7XzanzdNRN9OiWtVXMtX%3DWQpglLjHJlYQGiSnpJ3ElMLzalzb2KffuXqlewO7Szd&_ei_=Ej0KgVL1epkCxoXFGvzWx-4",
+        "offers": [
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME",
+                "barCode": "MC4557510003000000495120"
+            },
+            {
+                "bodyCopy": "15% with any method of payment",
+                "headLine": "EXTRA 15% OFF HOME",
+                "barCode": "MC4557510003000000495120"
+            },
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME",
+                "barCode": ""
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "d7aeb255-fcf1-4ced-af97-5d261bd386c2",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "Low",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-27T11:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing  Low Coupon Priority",
+        "offerStartDate": "2017-06-27T11:00:00-05:00",
+        "redeemingChannel": "all",
+        "promoCode": "Test Low Coupon",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing  Low Coupon Priority",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGrzfOXJGKkjvqzdqt7XzanzdNRN9OiWtVXMtX%3DWQpglLjHJlYQGiSnpJ3ElMLzalzb2KffuXqlewO7Szd&_ei_=Ej0KgVL1epkCxoXFGvzWx-4",
+        "offers": [
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME"
+            },
+            {
+                "bodyCopy": "15% with any method of payment",
+                "headLine": "EXTRA 15% OFF HOME"
+            },
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "d7aeb255-fcf1-4ced-af97-5d261bd386c2",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "Low",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-27T11:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing  Low Coupon Priority",
+        "offerStartDate": "2017-06-27T11:00:00-05:00",
+        "redeemingChannel": "all",
+        "promoCode": "Test Low Coupon",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing  Low Coupon Priority",
+        "offers": [
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME"
+            },
+            {
+                "bodyCopy": "15% with any method of payment",
+                "headLine": "EXTRA 15% OFF HOME"
+            },
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "d7aeb255-fcf1-4ced-af97-5d261bd386c2",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "Low",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-27T11:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing  Low Coupon Priority",
+        "offerStartDate": "2017-06-27T11:00:00-05:00",
+        "redeemingChannel": "all",
+        "promoCode": "Test Low Coupon",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing  Low Coupon Priority",
+        "barCodeUrl": "https://e.jcpenney.com/pub/sf/ResponseForm?_ri_=X0Gzc2X%3DWQpglLjHJlYQGrzfOXJGKkjvqzdqt7XzanzdNRN9OiWtVXMtX%3DWQpglLjHJlYQGiSnpJ3ElMLzalzb2KffuXqlewO7Szd&_ei_=Ej0KgVL1epkCxoXFGvzWx-4",
+        "offers": [
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME"
+            }
+        ]
+    },
+    {
+        "_meta": {
+            "id": "d7aeb255-fcf1-4ced-af97-5d261bd386c2",
+            "type": "content",
+            "contentType": "couponTile",
+            "name": "Low",
+            "parent": "/content/en_US/JCPenney.com/Coupons/Assets/Content",
+            "priority": 5,
+            "publishingStartDate": "2017-06-27T11:00:00.000-05:00",
+            "publishingEndDate": "2017-07-29T23:59:59.000-05:00",
+            "active": true,
+            "publishingChannels": [
+                "large",
+                "small",
+                "app"
+            ],
+            "lastModifiedBy": "NCHINTHI"
+        },
+        "disclaimerTemplate": "Testing  Low Coupon Priority",
+        "offerStartDate": "2017-06-27T11:00:00-05:00",
+        "redeemingChannel": "all",
+        "promoCode": "Test Low Coupon",
+        "offerEndDate": "2017-06-29T23:59:59-05:00",
+        "disclaimer": "Testing  Low Coupon Priority",
+        "offers": [
+             {
+                "bodyCopy": "*20% with your JCPenney credit card",
+                "headLine": "EXTRA 20% OFF HOME"
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+.container{
+    &.gallery{
+        @media(--viewport-xl), (--viewport-lg){
+            & .optionsBlock{
+                background-color: var(--color-gray-8);
+            }
+        }
+    }
+}

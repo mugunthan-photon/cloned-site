@@ -1,0 +1,64 @@
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+.colorSwatch {
+    font-size: 0.75rem;
+    line-height: 1.33;
+
+    & .swatchListWrapper {
+        position: relative;
+        height: 30px;
+
+        & .listBodyClass {
+            display: flex;
+            flex-direction: column;
+            padding-left: 2px;
+        }
+
+        & .listStyleClass {
+            display: flex;
+            margin: 0px;
+        }
+
+        & .itemStyleClass {
+            display: flex!important;
+        }
+
+        & .swatchBox {
+            position: absolute;
+            top: 0px;
+            border-radius: 2px;
+            background-color: var(--color-white);
+            box-shadow: 0 2px 4px 0 var(--color-gray-4);
+        }
+
+        & .swatchTable {
+            display: block;
+            width: 100%;
+        }
+
+        & .swatchButtonIcon {
+            stroke: var(--color-seconday-turquoise);
+            stroke-width: 5px;
+            stroke-linecap: round;
+            
+            @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+                pointer-events: none;
+            }
+        }
+
+        & .swatchSection {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        & .moreSwatchText {
+            font-family: var(--open-sans);
+            font-size: 12px;
+            font-weight: bold;
+            color: var(--color-seconday-turquoise);
+            padding-left: 8px;
+            line-height: 2;
+        }
+    }
+}

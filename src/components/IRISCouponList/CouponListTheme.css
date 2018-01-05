@@ -1,0 +1,157 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/settings/util.css';
+
+/* Style the tab content */
+@import '../../assets/styles/base/base.css';
+
+/* Style the tab content */
+.tabPanelContent {
+    padding: 0;
+}
+
+.tab {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--color-white);
+    height: auto;
+    flex-wrap: wrap;
+
+    & >.tabListItem {
+        float: left;
+        text-align: center;
+
+        & > .tabButton {
+            border: none;
+            outline: none;
+            display: inline-block;
+            text-align: center;
+            color: var(--color-seconday-turquoise);
+            cursor: pointer;
+            text-decoration: none;
+
+            & > .tabPanelTitle {
+                cursor: pointer;
+                display: inline-block;
+                border-bottom: 4px solid transparent;
+                padding: 13px;
+                font: bold 16px var(--open-sans);
+                width: 112px;
+            }
+            @media (--viewport-sm) {
+                & > .tabPanelTitle {
+                    width: 95px;;
+                }
+            }
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:hover:not(.active)  {
+            & .tabPanelTitle {
+                border-color: rgba(0,0,0,0.15);
+            }
+
+        }
+
+        &.active {
+            & .tabPanelTitle {
+                cursor: pointer;
+                color: var(--color-light-black);
+                border-color: var(--color-seconday-turquoise);
+            }
+
+        }
+    }
+    @media (--viewport-md) {
+      & .tabListItem {
+        margin-right: 16px;
+      }
+    }
+
+    @media (--viewport-sm) {
+      & .tabListItem {
+        margin-right: 5px;
+      }
+    }
+}
+
+/* added classes seperately, so as to support theming and loose coupling of css*/
+.center {
+    justify-content: center;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+/* Can Enable Animation Based on requirement TODO :: Intial Load animation effect has to be resolved  */
+
+/*@-webkit-keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.listAnimation {
+    animation: fadeinout .23s ease-in;
+    @-moz-animation: fadeinout .23s ease-in;
+    @-webkit-animation: fadeinout .23s ease-in;
+    @-o-animation: fadeinout .23s ease-in;
+}*/
+
+.title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: left;
+  color: #1c2024;
+  padding: 12px;
+}
+
+.couponListBody {
+    
+    & .couponListBlock {
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+
+        & .couponListItem {
+            padding: 8px;
+
+            & .couponListContentBlock {
+                height: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.ratingWrapper{
+    &.cartridge{
+        & .ratingContainer{
+             & .prodCardStarRating {
+                font-size: 11px;
+            }
+        }
+
+        & .reviewCount {
+            font-size: 11px;
+        }
+    }
+}

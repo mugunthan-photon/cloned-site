@@ -1,0 +1,60 @@
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+.bundleBadge {
+    position: absolute;
+    padding: 4px 6px 4px 16px;
+    background-color: #bd0000;
+    top: 9.5%;
+    left: 6%;
+    box-shadow: 0 1px 0 0 #5b0000;
+    @media(--viewport-lg) {
+        top: 29%;
+        left: -2%;
+    }
+    @media(--viewport-xl) {
+        top: 29%;
+        left: -2%;
+    }
+}
+
+.btmLft, .topLft {
+    left: 0;
+    border-right: 7px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.btmLft {
+    bottom: -2px;
+    border-bottom: 7px solid #f3f5f6;
+}
+
+.topLft {
+    top: -1px;
+    border-top: 7px solid #f3f5f6;
+}
+
+.text {
+    font-size: 13px;
+    font-family: var(--open-sans);
+    color: var(--color-white);
+    display: block;
+    font-weight: 600;
+}
+
+.text:first-letter {
+    text-transform: capitalize;
+}
+
+.circle {
+    border-radius: 50%;
+    background: var(--color-white);
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    top: 46%;
+    left: 6%;
+}

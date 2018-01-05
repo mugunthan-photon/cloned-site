@@ -1,0 +1,99 @@
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+
+.timerContainers {
+  overflow: auto;
+  /*font-family: sans-serif;*/
+
+ & .timer { 
+  & .timerListItem , & .suffix {
+    float: left;
+    margin: 4px;
+    text-align: center;
+
+    & .timerNumber {
+      & .timerDigit {
+          padding: 3px;
+          border-radius: 2px; 
+          color: var(--color-black);
+          background-color: var(--color-white);
+      }
+
+      & .timerDigit:first-child {
+          margin-right: 4px;
+      }
+      @media (--viewport-md) {
+            line-height: 32px;
+        }
+
+        @media (--viewport-sm) {
+            line-height: 30px;
+        }
+
+    }
+
+  }
+
+  & .timerSuffix {
+    /*line-height: 50px;*/
+    padding-top: 12px;
+    @media (--viewport-md) {
+       padding-top: 5px;
+    }
+
+    @media (--viewport-sm) {
+       padding-top: 5px;
+    }
+  }
+
+ 
+
+  & .timerText {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+ }
+}
+
+.displayTimer {
+    vertical-align: middle;
+}
+
+.liveTextLabelClassName {
+    color: #ffffff;
+    vertical-align: middle;    
+}
+
+.timerParentWrapper {
+    background-color: #000000;
+}
+
+.wrapperClassName {
+    text-align: center;
+}
+
+.timerAnimateClass {
+  width: 30px;
+  height: 45px;
+  transform-style: preserve-3d;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0px;
+
+  @media (--viewport-md) {
+    width: 25px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  @media (--viewport-sm) {
+    width: 15px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}

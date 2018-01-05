@@ -1,0 +1,40 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.availabilityWrapper {
+    min-height: 65px;
+    display: table;
+    font-family: var(--open-sans);
+    margin-left: -5px;
+    & .availabilityMessageWrapper {
+        display: table;
+        & .availabilityMessageEach {
+            display: table-cell;
+            padding-right: 5px;
+            & .message {
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 1.33;
+                text-align: left;
+                color: var(--color-gray-6);
+                & span {
+                    color: var(--color-success-green);
+                }
+            }
+
+            & .storeLoc {
+                font-size: 12px;
+                line-height: 1.33;
+                text-align: left;
+                color: var(--color-gray-6);
+            }
+        }
+    }
+    & ul.listview .availabilityMessageWrapper {
+        display: inline;
+        padding-right: 5px;
+    }
+    & ul.gridview .availabilityMessageWrapper {
+        display: block;
+    }
+}

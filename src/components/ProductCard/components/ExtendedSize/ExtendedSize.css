@@ -1,0 +1,22 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+@import './themes/OneRecordBannerTheme.css';
+@import './themes/GalleryTheme.css';
+
+.extendedSize {
+    display: inline-block;
+    width: 100%;
+    padding: 4px 0;
+    position: absolute;
+    bottom: 0px;
+    background: var(--color-white);
+    opacity: 0.9;
+    font-size: 14px;
+    line-height: 1.14;
+    left: 0px;
+    font-family: var(--open-sans);
+    text-transform: capitalize;
+    color: #384048
+}

@@ -1,0 +1,24 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+
+@import './themes/CartridgeTheme.css';
+
+.ratingWrapper {
+    min-height: 25px;
+
+    & .ratingContainer{
+        display: inline-block;
+
+        & .rating{
+            overflow: visible;
+        }
+    }
+    & .reviewCount {
+        color: var(--color-seconday-turquoise);
+        font-size: 0.75rem;
+        font-weight: bold;
+        padding: 0 0.2rem;
+        font-family: var(--open-sans);
+    }
+}

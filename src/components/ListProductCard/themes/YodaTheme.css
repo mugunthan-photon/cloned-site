@@ -1,0 +1,175 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+.productCardFinal{
+    &.yoda{
+        display: flex; /* As the lower iPad version is fixed with the -webkit- we can make this as flex or inherit is fine */
+        display: -webkit-flex; /* For lower iPad Version */
+        width: 100%;
+
+         & .imgBlock {
+            & .imageDetails {
+                height: auto;
+            }
+        }
+
+        & .title {
+            color: var(--color-gray-5);
+            line-height: 20px;
+            max-height: 40px;
+            height: auto;
+        }
+
+        & .priceWrapperClass{
+            white-space: normal;
+            line-height: 20px;
+            margin: 5px 0;
+
+            & .priceClass{
+                font-size: 1.25rem;
+            }
+        }
+
+        & .saveForLaterContainer {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            display: inline-block;
+        }
+
+        & .bulletedCopyBlock {
+            display: none;
+        }
+
+        & .grid {
+            @media (--viewport-xl) {
+                & .imgBlock {
+                    min-height: 300px;
+                    min-width: 245px;
+                }
+
+                & .title {
+                    font-size: 14px;
+                    line-height: 1.43;
+                    max-height: 40px;
+                }
+            }
+            @media (--viewport-lg) {
+                & .imgBlock {
+                    min-height: 260px;
+                    min-width: 245px;
+                }
+
+                & .title {
+                    font-size: 14px;
+                    line-height: 1.43;
+                    max-height: 40px;
+                }
+            }
+
+            & .videoWrapper {
+                top: 25px;
+            }
+        }
+
+        & .list{
+             & .imgBlock {
+                display: flex;
+                display: -webkit-flex; /* For lower iPad Version */
+                width: 201px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                 & .imageDetails {
+                    flex-direction: column;
+                    position: relative;
+                }
+             }
+
+             & .detailsWrapper{
+                width: auto;
+                flex-grow: 1;
+             }
+
+             & .bulletedCopyBlock {
+                & .learnMore {
+                    font-family: var(--open-sans);
+                    font-size: 14px;
+                    line-height: 1.71;
+                    text-align: left;
+                    color: #006c7c;
+                    text-decoration: underline;
+                }
+             }
+
+             @media (--viewport-sm) {
+                & .saveForLaterContainer {
+                    position: relative;
+                    display: inline-block;
+                }
+                & .imgBlock {
+                    width: 30%;
+                    display: block;
+                    & .imageDetails{
+                        margin-top: 8px;
+                    }
+                }
+
+                & .detailsWrapper {
+                    width: 70%;
+                    & .extendedSize {
+                        position: relative;
+                    }
+                }
+             }
+
+             @media (--viewport-xl) {
+                & .imgBlock {
+                    width: 25%;
+                    min-width: 245px;
+                }
+    
+                & .productdetailedBlock {
+                    width: 40%;
+                    min-width: 245px;
+                }
+        
+                & .bulletedCopyBlock {
+                    display: block;
+                    width: 60%;
+                    padding-left: 10px;
+                }
+
+                & .title {
+                    font-size: 20px;
+                    line-height: 1.6;
+                    max-height: 65px;
+                }
+            }
+        
+            @media (--viewport-lg) {
+                & .imgBlock {
+                    width: 25%;
+                    min-width: 245px;
+                }
+    
+                & .productdetailedBlock {
+                    width: 40%;
+                    min-width: 245px;
+                }
+        
+                & .bulletedCopyBlock {
+                    display: block;
+                    width: 60%;
+                    padding-left: 10px;
+                }
+
+                & .title {
+                    font-size: 14px;
+                    line-height: 1.43;
+                    max-height: 40px;
+                }
+            }
+        }
+    }
+}

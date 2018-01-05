@@ -1,0 +1,143 @@
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import "yoda-core-components/lib/assets/styles/colors/colors.css";
+@import "yoda-core-components/lib/assets/styles/fonts/fonts.css";
+@import "../../assets/styles/base/base.css";
+.dropdownMenu {
+    width: 100%;
+    text-align: left;
+    height: calc(100% - 40px);
+    & .defaultContainer {
+        height: 100%;
+        overflow-y: auto;
+    }
+    & .hr {
+        border-bottom: 1px solid #c7cdd4;
+        padding-bottom: 7px;
+    }
+
+    & .siginDecor {
+        border-top: 1px solid #c7cdd4;
+        margin-top: 7px;
+    }
+    & .iconLocation {
+        fill: #B40000
+    }
+    & .menuListItemLink {
+        height: 40px;
+        width: 100%;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.86;
+        text-align: left;
+        color: #333333;
+        padding: 5px 5px 5px 10px;
+    }
+    & .shopDepartments {
+        height: 51px;
+        width: 100%;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.86;
+        text-align: left;
+        color: #006c7c;
+        padding: 10px 5px 5px 10px;
+    }
+    & .rightArrow {
+        float: right;
+        & .svg-icon {
+            content: '';
+            font-weight: normal;
+            font-size: 20px;
+            padding-right: 5px;
+        }
+    }
+    & .coupons {
+        color: #cc0000;
+    }
+    & .signout {
+        color: #006c7c;
+    }
+    & .needHelp {
+        height: 56px;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.86;
+        text-align: left;
+        color: #ffffff;
+        background-color: #384048;
+        width: 100%;
+        margin-top: 7px;
+    }
+    & .siginParent {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+    }
+    & .sigininButton {
+        margin: 16px;
+        width: 90%;
+        margin-bottom: 22px;
+    }
+    & .registerHere {
+        width: 95px;
+        height: 24px;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.71;
+        text-align: left;
+        color: #006c7c;
+    }
+    & .singinTextBottom {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 15px;
+        display: block;
+    }
+    & .accessibleView {
+        height: 44px;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.86;
+        text-align: left;
+        color: #ffffff;
+        background-color: #384048;
+        width: 100%;
+        padding-left: 28px;
+    }
+    & .findAStore {
+        height: 59px;
+        padding: 10px 7px;
+        border-bottom: 1px solid #c7cdd4;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+    & .findIcon {
+        padding-top: 7px;
+        position: absolute;
+    }
+    & .findTitle {
+        padding-left: 35px;
+        font-family: var(--open-sans);
+        font-size: 12px;
+        line-height: 1.33;
+        text-align: left;
+        color: #1c2024;
+    }
+    & .findText {
+        display: block;
+        padding-left: 35px;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.71;
+        text-align: left;
+        color: #1c2024;
+    }
+}

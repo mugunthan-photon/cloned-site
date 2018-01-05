@@ -1,0 +1,32 @@
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import "yoda-core-components/lib/assets/styles/colors/colors.css";
+@import "yoda-core-components/lib/assets/styles/fonts/fonts.css";
+
+.iconTooltip {
+    margin-left: -42px;
+    width: 270px;
+    line-height: 1.71;
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+    color: var(--color-white);
+    background-color: var(--color-gray-6);
+    border-radius: 4px;
+
+    @media (--viewport-sm) {
+        width: 255px;
+    }
+
+    &:after {
+        margin-left: 41px;
+        border-left: 4px solid transparent!important;
+        border-right: 4px solid transparent!important;
+        border-top: 4px solid var(--color-gray-6)!important;
+        left: 6px;
+    }
+}
+
+.svgIcon {
+    pointer-events: none;
+}

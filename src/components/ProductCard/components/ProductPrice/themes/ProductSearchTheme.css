@@ -1,0 +1,17 @@
+.pricingWrapper{
+    &.productSearch{
+        padding-top: 0;
+
+        & .priceWrapperClass{
+             margin: 0;
+
+             & .priceClass{
+                 font-size: 16px;
+             }
+
+             & .cardPriceLabel{
+                 font-size: 12px;
+             }
+        }
+    }
+}

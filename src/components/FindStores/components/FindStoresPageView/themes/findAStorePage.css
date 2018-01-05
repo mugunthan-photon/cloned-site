@@ -1,0 +1,47 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+    
+.contentWrapper{
+    /*Find A Store Page css*/
+    &.findAStorePage{
+        & .mapWithFilters{
+            & .mapsWrapper{
+                height:300px;
+
+                 @media (--viewport-sm) {
+                    height: 250px;
+                }
+            }
+        }
+        
+        & .listWrapper{
+            & .storesContent{
+                background: var(--color-white);
+                
+                & .storeDetailsList{
+                    background: var(--color-white);
+                }
+
+                & .loadMoreContainer {
+                    background: var(--color-white);
+                }
+            }
+        }
+
+        &.mobileView{
+            & .listWrapper{
+                float: left;
+                width: 100%;
+            }
+
+            & .mapWithFilters{
+                & .mapsWrapper{
+                    float: left;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

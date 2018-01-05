@@ -1,0 +1,50 @@
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import "yoda-core-components/lib/assets/styles/colors/colors.css";
+@import "yoda-core-components/lib/assets/styles/fonts/fonts.css";
+@import "../../assets/styles/base/base.css";
+.dropdownMenu {
+    width: 100%;
+    text-align: left;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    height: calc(100% - 40px);
+    display: block;
+    & .dropdownMenuWrapper {
+        height: 100%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    & .imageWidth {
+        width: 48px;
+        float: left;
+    }
+    & .menuListItemName {
+        padding-left: 12px;
+        text-transform: capitalize;
+    }
+    & .hr {
+        border-bottom: 1px solid #c7cdd4;
+        padding-bottom: 7px;
+    }
+    & .menuListItemLink {
+        height: 51px;
+        width: 100%;
+        font-family: var(--open-sans);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 4.00;
+        text-align: left;
+        color: #333333;
+        padding: 5px 5px 5px 10px;
+    }
+    & .rightArrow {
+        float: right;
+        padding-right: 11px;
+        & .svg-icon {
+            content: '';
+            font-weight: normal;
+            font-size: 20px;
+        }
+    }
+}

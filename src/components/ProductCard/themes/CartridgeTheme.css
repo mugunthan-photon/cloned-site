@@ -1,0 +1,67 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+.productCard{
+    &.cartridge{
+        & .card {
+            height: 100%;
+            border: none;
+
+            & .detailsWrapper {
+                padding: 2px 4px 2px 8px;
+            }
+
+            & .customPriceMarketingLabel {
+                display: none;
+            }
+
+            & .imgBlock { 
+                border: 0;
+            }
+
+            @media (--viewport-md) {
+                & .imgBlock {
+                    min-height: 144px;
+
+                    & .imageDetails {
+                        height: 144px;
+                    }
+                }
+            }
+
+            @media (--viewport-lg-plus) {
+                & .imgBlock {
+                    min-height: 160px;
+
+                    & .imageDetails {
+                        height: 160px;
+                    }
+                }
+            }
+
+            @media (--viewport-sm) {
+                & .imgBlock {
+                    min-height: 114px;
+
+                    & .imageDetails {
+                        height: 114px;
+                    }
+                }
+            }
+       }
+
+        & .imgBlock {
+
+            & .imageClass {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                margin: 0;
+                padding: 0;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}

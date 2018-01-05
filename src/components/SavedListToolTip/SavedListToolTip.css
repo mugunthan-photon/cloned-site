@@ -1,0 +1,247 @@
+@import 'yoda-core-components/lib/assets/styles/base/base.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+
+.pdpTooltip{
+	@media (--viewport-md){
+		left: -88% !important;
+	}
+}
+.toolTipCont {
+    position: absolute;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 6px 11px 0 rgba(83,96,107,.5);
+    border: 1px solid #c7cdd4;
+    z-index: 9999;
+    padding-bottom: 15px;
+    -webkit-transform: translateY(-51%);
+    transform: translateY(-51%);
+    /* margin: 0 47%; */
+    left: -93%;
+	top: 50%;
+	@media (--viewport-md){
+		left: -47%;
+	}
+	&:after, &:before {
+		left: 100%;
+		top: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+
+	&:after{
+		border-left-color: var(--color-white);
+		border-width: 10px;
+		margin-top: -10px;
+	}
+
+	&:before{
+		border-left-color: var(--color-gray-3);
+		border-width: 11px;
+		margin-top: -11px;
+	}
+
+	& .subContainer{
+		padding: 10px 10px 0 10px;
+	}
+}
+
+.saveTollTip {
+	& .errorMsgCont {
+		margin-top: 20px;
+	}
+	& .successContainer {
+		text-align: center;
+		& .successtext{
+			color: var(--color-success-green);
+			font-weight: bold;
+		}
+
+		& .listName {
+			font-size: 14px;
+			font-weight: bold;
+			color: var(--color-gray-6);
+			text-align: center;
+
+			& .imageTag{
+				width: 24px;
+				height: 24px;
+			}
+		}
+
+		& .productImages {
+
+			& .imageBlock {
+				width: 48px;
+				height: 48px;
+				background-color: var(--color-white);
+				box-shadow: 1px 3px 24px -1px rgba(83,96,107,.2);
+				margin: 4px;
+				display: inline-block;
+				& .image{
+					width: 48px;
+					height: 48px;
+				}
+			}
+
+			& .textBlock {
+				width: 48px;
+				height: 48px;
+				background-color: var(--color-white);
+				box-shadow: 1px 3px 24px -1px rgba(83,96,107,.2);
+				margin: 4px;
+				display: inline-block;
+
+				& .remaining{
+					font-size: 14px;
+					font-weight: bold;
+					text-align: center;
+					vertical-align: middle;
+					line-height: 49px;
+					color: var(--color-gray-6);
+				}
+			}
+		}
+
+		& .alignCenter{
+			text-align: center;
+			font-size: 14px !important;
+			font-weight: bold !important;
+			color: var(--color-seconday-turquoise);
+		}
+
+		& .button{
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 14px;
+			margin: 0 auto;
+			text-align: center;
+		}
+	}
+}
+
+.header{
+	text-align: left;
+	& .text{
+		display: inline-block;
+		width: 90%;
+		text-align: left;
+		vertical-align: top;
+		color: var(--color-gray-7);
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	& .closeToolTip{
+		position: absolute;
+		right: 8px;
+		top: 7px;
+		text-align: center;
+		@media (--viewport-sm){
+			display: none;
+		}
+		& .close{
+			width: 22px;
+		}
+	}
+}
+
+.bodyContainer{
+	min-height: 20px;
+	margin: 10px 10px 0px 4px;
+	& .itemsContainer {
+		width: 100%;
+		position: relative;
+		margin-top: 16px !important;
+		margin-top: 8px!important;
+		display: inline-block;
+		& .radioButton{
+			display: inline;
+			float: left;
+			width:40px;
+			height: 40px;
+		}
+
+		& .itemName{
+			display: inline;
+			float: left;
+			padding-left: 10px;
+			vertical-align: middle;
+			color: var(--color-gray-6);
+			font-weight: bold;
+			word-wrap: break-word;
+			max-width: 200px;
+			@media (--viewport-sm){
+				max-width: 85%;
+			}
+			& .itemNameTxt {
+				font-weight: bold;
+			}
+			& .itemNameCount {
+				font-weight: normal;
+				color: var(--color-gray-5);
+			}
+			& .imageTag {
+				width: 25px;
+			}
+		}
+	}
+}
+
+.createnewListCont {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	& .heading {
+		font-size: 14px;
+			font-weight: bold;
+			color: var(--color-gray-6);
+			text-align: left;
+	}
+
+	& .inputContainer {
+		display: inline-block;
+		width: 55%;
+		@media (--viewport-md) {
+			width: 53%;
+		}
+		& .input {
+			display: block;
+			width: 100%;
+			color: #1c2024;
+			height: 46px;
+			opacity: .75;
+			font-size: 16px;
+			padding: 0 16px;
+			border: 1px solid #c7cdd4;
+			outline: none;
+			box-shadow: 1px 1px 2px 0 rgba(28,0,0,.6);
+		}
+	}
+
+	& .moveButton{
+		display: inline-block;
+		& .button {
+			padding: 11px 0 !important;
+		}
+	}
+}
+
+.footerContainer{
+	border-top: 1px solid var(--color-gray-3);
+	padding-top: 6px;
+	text-align: left;
+	padding-left: 10px;
+	& .button {
+		text-decoration: none;
+		font-size: 14px !important;;
+    }
+    & .plusToolTip {
+        color: var(--color-seconday-turquoise);
+    }
+}

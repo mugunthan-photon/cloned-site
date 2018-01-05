@@ -1,0 +1,23 @@
+.videoWrapper {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    right: 0px;
+
+    &.grid{
+        top: 25px;
+    }
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        top: 0px;
+    }
+}
+
+
+.video {
+    display: block;
+    position: absolute;
+    bottom: 13px;
+    left: 0px;
+}

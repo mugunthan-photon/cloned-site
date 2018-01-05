@@ -1,0 +1,6 @@
+--compilers jsx:babel-register
+--require jsdom-global/register
+--require ignore-styles test/.setup.jsx
+src/components/**/*.test.jsx
+src/**/*.test.js
+src/**/*.test.jsx

@@ -1,0 +1,7 @@
+.adsBlock {
+    text-align: center;
+
+    & > div {
+        margin-top: 16px;
+    }
+}

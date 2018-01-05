@@ -1,0 +1,158 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+
+:root {
+    --arrow-border-color: #a9b9b9;
+    --arrow-disabled-background: #e3e6ea;
+    --arrow-margin: 24px;
+    --arrow: {
+        position: absolute;
+        width: 45px;
+        height: 43.8px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);
+        border: 0;
+        z-index: 4;
+        margin: auto;
+        cursor: pointer;
+        bottom: 0;
+        top: 0;
+
+        &:disabled {
+            box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);;
+            cursor: default;
+            border: none;
+            display: none;
+        }
+    };
+}
+
+.catridgeBlock {
+
+    & .carousel{
+        text-align: center;
+        margin:10px 0 0 0;
+      }
+
+      & .carousel:hover {
+        cursor: default;
+      }
+  
+      /* Hide the radio button */
+      & .carousel input[type=radio] {
+        display: none;
+      }
+  
+      /* All styling takes place on the label element */
+      & .carousel label {
+        display: inline-block;
+        background: #c7cdd4;
+        overflow: hidden;
+        text-indent: -999px;
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        margin:0 5px 0 0;
+      }
+
+      & .carousel label:hover {
+        background: #c7cdd4;
+        cursor: pointer;
+      }
+
+      & .carousel input:checked + label {
+        background: linear-gradient(#53606b, #53606b);
+      }
+
+    & .wrapper {
+        width: 100%;
+        position: relative;
+        padding-left: 5px;
+
+        & .catridgeListBlock {
+            margin: 0 -4px;
+        }
+
+        & img {
+            max-width: 100%;
+        }
+
+        & .linkColor {
+            color: var(--color-light-black);
+            display: inline-block;
+            width: 100%;
+            display: inherit;
+
+            & .productCard{
+                width: 100%;
+            }
+        }
+
+        & .leftArrow {
+            @apply --arrow;
+            left: 0;
+            margin-left: var(--arrow-margin);
+        }
+
+        & .rightArrow {
+            @apply --arrow;
+            right: 0;
+            margin-right: var(--arrow-margin);
+
+        }
+
+        & .listStyleClass {
+            display: flex;
+            transition: transform .4s ease-in-out;
+        }
+
+        & .itemStyleClass {
+            padding: 0px;
+            display: inherit;
+            flex-shrink: 0;
+            overflow: hidden;
+            
+            @media (--viewport-sm) {
+                width: 38.75%;
+                min-width: 124px;
+            }
+
+            @media (--viewport-md) {
+                width: 25.5%; /* Applied to get as per the mocks */
+                min-width: 160px;
+            }
+
+            @media (--viewport-lg) {
+                width: 17%; /* Applied to get as per the mocks */
+                min-width: 176px;
+            }
+
+            @media (--viewport-xl) {
+                width: 12.2%; /* Applied to get as per the mocks */
+                min-width: 176px;
+            }
+        }
+
+        & .desktopBodyClass {
+            overflow: hidden;
+        }
+
+        & .mobileBodyClass{
+            overflow-y: hidden;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        & .iconClass{
+            fill: var(--color-gray-6);
+            color: var(--color-gray-6);
+        }
+
+        & .disabledArrow{
+            fill: var(--color-gray-3);
+            color: var(--color-gray-3);
+        }
+    }
+}

@@ -1,0 +1,9 @@
+
+@import './themes/GalleryTheme.css';
+@import './themes/ProductSearchTheme.css';
+
+
+.imageClass {
+    max-width: 100%;
+    max-height: 100%;
+}

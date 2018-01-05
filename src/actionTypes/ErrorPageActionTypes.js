@@ -1,0 +1,2 @@
+export const SHOW_ERROR_PAGE = 'SHOW_ERROR_PAGE';
+export const REMOVE_ERROR_PAGE = 'REMOVE_ERROR_PAGE';

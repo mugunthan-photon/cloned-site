@@ -1,0 +1,74 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+
+.marketingOptInSection {
+  margin: 0 auto;
+  width:100%;
+
+  /* To achieve Responsive behavior for marketingOptInSection component
+   * Width of Textbox gets responsively aligned when browser resize happens
+   */
+  display: table;
+
+  & .inputWrapper {
+    display: table-cell;
+    width: 100%;
+    position: relative;
+
+    & .crossBar{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        padding: 0 10px;
+
+        & .closeIcon{
+            fill: #3E66AB;
+            color: #3E66AB;
+        }
+    }
+    
+    & .inputwithIcon{
+      position: relative;
+
+      & .iconBlock {
+        position: absolute;
+        top:10px;
+        left:10px;
+        color: var(--color-gray-6);
+      }
+    }
+
+
+  }
+
+  & .buttonWrapper {
+    display: table-cell;
+    vertical-align: top;
+
+    & .marketingOptInBtn {
+        width:125px;
+        box-sizing: border-box;
+        border-radius:0 4px 4px 0;
+        border:1px solid var(--color-black);
+        height:40px;
+        padding: 7px 10px 10px 10px;
+        font-size: 14px;
+        cursor:pointer;
+    }
+  }
+
+
+  & .marketingOptInInput {
+    padding:5px;
+    width:100%;
+    box-sizing: border-box;
+    height:40px;
+    border:1px solid var(--color-light-gray);
+    font-size: 14px;
+  }
+
+  & .marketingOptInInput:focus {
+    outline:none;
+  }
+
+}

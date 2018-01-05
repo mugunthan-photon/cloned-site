@@ -1,0 +1,7 @@
+
+
+.imageClass {
+    &.productSearch{
+        width: 152px;
+    }
+}

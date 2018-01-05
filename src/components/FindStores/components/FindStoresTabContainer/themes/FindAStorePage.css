@@ -1,0 +1,10 @@
+
+.container {
+    &.findAStorePage{
+        position: relative;
+
+         & .scrollableContainer {
+            padding-bottom: 0px;
+        } 
+    }
+}

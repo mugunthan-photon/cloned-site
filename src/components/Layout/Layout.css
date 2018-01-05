@@ -1,0 +1,62 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/settings/util.css';
+@import '../../assets/styles/base/base.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background: rgba(0,0,0,.5);
+
+    &.active {
+        display: block; /* For Site Component Testing Purpose made it as none */
+    }
+}
+
+.previewActive {
+    padding-top: 32px;
+}
+
+.main-container {
+    padding: 0;
+}
+/* MNPDPYODA-2467 */
+@media (--viewport-sm), (--viewport-md) {
+    .lockWidth {
+        min-width: 1024px;
+        width: 100%;
+        overflow: auto;
+    }
+}
+/* MNPDPYODA-2467 Ends */
+
+/*  Not going to use for Grid Purpose added only for the view
+    Have to remove from the HTML too for the working purpose
+    It is mentioned only to know the grid layout structure
+*/
+.mainContainer{
+    position: relative;
+}
+
+.whiteBg{
+    background-color: var(--color-white);
+}
+
+div.gridLook {
+    border: 1px dashed red;
+    margin: 5px 0;
+    padding: 50px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.noMargin{
+    margin: 0 !important;
+}

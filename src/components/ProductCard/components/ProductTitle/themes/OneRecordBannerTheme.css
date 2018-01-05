@@ -1,0 +1,8 @@
+.title {
+    &.oneRecordBanner{
+        color: var(--color-gray-5);
+        font-size: 0.87rem;
+        line-height: 1.43;
+        height: 40px;
+    }
+}

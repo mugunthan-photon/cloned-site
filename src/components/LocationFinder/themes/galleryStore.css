@@ -1,0 +1,34 @@
+
+.storesWrap {
+    &.gallery {
+        & .locationFinderBtnText{
+            display: none;
+        }
+
+        & .findSearchBlk {
+            & .selectMiles {
+                & .milesSelectField {
+                    &:before {
+                        right: 18%;
+                    }
+                }
+            }
+        }
+
+        &.desktopStoresWrap{
+            & .useMyLocationBtn {
+                & .locationBtn{
+                    font-size: 0.875rem;
+                }
+            }
+
+            & .selectMiles {
+                & .milesSelectField {
+                    & .milesSelect {
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

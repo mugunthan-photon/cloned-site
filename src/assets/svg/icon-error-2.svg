@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>682D6825-8DE7-4A70-A714-7424D5432720</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Design-Foundations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design-Foundations---Iconography-Glyph" transform="translate(-700.000000, -1549.000000)">
+            <g id="Alert-Icons" transform="translate(80.000000, 1499.000000)">
+                <g id="error-2" transform="translate(608.000000, 38.000000)">
+                    <g id="icon/dark/error-line">
+                        <g id="Path">
+                            <rect id="Bounding-Box" x="0" y="0" width="48" height="48"></rect>
+                            <g id="unavailable-fill" transform="translate(12.000000, 12.000000)" fill="#384048">
+                                <g id="unavailable">
+                                    <path d="M12,2.4 C6.70656,2.4 2.4,6.70656 2.4,12 C2.4,14.21508 3.15612,16.25568 4.42104,17.88192 L17.88192,4.42104 C16.25568,3.15612 14.21508,2.4 12,2.4 L12,2.4 Z M12,24 C5.37252,24 0,18.62748 0,12 C0,5.37264 5.37252,0 12,0 C18.62736,0 24,5.37264 24,12 C24,18.62748 18.62736,24 12,24 L12,24 Z M19.57884,6.11808 L6.11808,19.57896 C7.74432,20.84388 9.78492,21.6 12,21.6 C17.29344,21.6 21.6,17.29344 21.6,12 C21.6,9.78492 20.84388,7.74432 19.57884,6.11808 L19.57884,6.11808 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+.title {
+    &.gallery{
+        color: var(--color-gray-5);
+        line-height: 20px;
+        max-height: 40px;
+        height: auto;
+
+        @media (--viewport-lg-plus) {
+            font-size: 14px;
+            line-height: 1.43;
+        }
+    }
+}

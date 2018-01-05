@@ -1,0 +1,62 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+:root {
+    /*Global fonts*/
+    --smallFont: 0.75rem;
+    --divider-gray: #979797;
+}
+
+.badge {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: -5px;
+    padding: 1px 4px;
+    background: var(--color-white);
+    border-radius: 0px 3px 3px 0px;
+    font-weight: bold;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);
+    border: solid 1px var(--color-gray-3);
+    font-family: var(--open-sans);
+    font-size: 0.75rem;
+
+    @media(--viewport-lg-plus){
+        padding: 6px 4px;
+    }
+
+    & .badgechild:before {
+        content: ' ';
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 0 solid transparent;
+        border-bottom: 5px solid var(--divider-gray);
+        top: -6px;
+        position: absolute;
+        z-index: -1;
+        left: -1px;
+    }
+
+    &.red, &.redBadge {
+        color: var(--color-primary-brand-red)
+    }
+
+    &.green {
+        color: var(--color-success-green)
+    }
+
+    &.black {
+        color: var(--color-gray-7)
+    }
+
+    &.mediumBlue {
+        color: var(--color-seconday-turquoise)
+    }
+
+    &.neutralBlue {
+        color: var(--color-neutral-blue)
+    }
+}

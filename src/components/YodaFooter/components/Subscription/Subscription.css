@@ -1,0 +1,180 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+.subscriptionWrapper{
+    background: #fff;
+    padding: 1rem 2rem;
+    
+    @media (--viewport-md) {
+    padding: 1rem 5rem;
+    }
+    @media (--viewport-lg-plus) {
+    padding: 1rem 16rem;
+    }
+
+    & .inline{
+        display: inline-block;
+    }
+
+    & .anchor{
+        color: var(--color-seconday-turquoise);
+        font-weight: bold;
+    }
+      
+    & .subsTitle{
+        font-family: var(--open-sans);
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: left;
+        color: var(--color-gray-6);
+        padding-bottom: 5px;
+        
+        @media (--viewport-md) {
+            font-size: 14px;
+        }
+    }
+    & .subscriptionTerms{
+        font-family: var(--open-sans);
+        font-size: 10px;
+        line-height: 1.6;
+        text-align: left;
+        margin: 10px 0 0;
+        width: 100%;
+        color: var(--color-solid-light-gray);
+
+        & b{
+            font-weight: bold;
+            color: var(--color-gray-6);
+        }
+    }
+    & .subscriptionRow{
+        & .subscribe{
+            background-color: var(--color-white);
+            border-radius: 2px 0 0 2px;
+            box-shadow: 0 1px 2px 0 rgba(83, 96, 107, 0.5);
+            border-top: solid 1px #c7cdd4;
+            border-bottom: solid 1px #c7cdd4;
+            border-left: solid 1px #c7cdd4;
+            color: var(--color-light-black);
+            padding: 5px 10px 5px 40px;
+            height: 48px;
+            box-sizing: border-box;
+        }
+        .subscribe::-ms-clear {
+            margin-right:20px;
+        }
+
+        & .buttonWrap{
+            vertical-align: bottom;
+            & .signInButton{
+                background-color: var(--color-branded);
+                border-radius: 0 2px 2px 0;
+                height: 48px;
+                border: 1px solid #cc0000;
+                box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);
+                font-family: var(--main-font);
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 1.5;
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+
+        & .errorBlock{
+            color: var(--color-error-red);
+            font-family: var(--open-sans);
+            font-weight: bold;
+            font-size: 14px;
+            width:100%;
+            float: left;
+            padding: 5px 0;
+        
+            & .iconBlock {
+                display: inline-block;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+/* *--
+    Applied to set the width max of 1440px as only the Bg need to expand upto the start and the end point of the screen 
+    To avoind unwantedly the util.css fully applied the container width class in the component whereever needed.
+
+    Note:
+    If any changes doing this values have to change it in Header.css, FooterLinks.css, Subscription.css, SecondayNavigation.css
+--* */
+.containerWidth {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.customModalContent{
+    font-weight: 400;
+    letter-spacing: 0.03125rem;
+
+    & .modalTitle{
+    margin-bottom: .625rem;
+    }
+
+    & .modalPara {
+    font-size: .6875rem;
+    line-height: 1.5;
+    padding-top: 1rem;
+    padding-right: 15px;
+    color: var(--color-light-black);
+    }
+
+    & .single{
+    border-top: 1px solid #ccc;
+    }
+}
+
+.customModalContent.customModalOfferMessage{
+    font-weight: 400;
+
+    & .modalTitle{
+        text-align: center;
+        font-size: 24px;
+        font-family: var(--main-font);
+        color: var(--color-gray-7);
+    }
+
+    & .modalPara {
+        font-size: 16px;
+        padding-top: 0;
+        padding-right: 0px;
+        letter-spacing: 0px;
+        font-family: var(--open-sans);
+        color: var(--color-gray-7);
+        /*@media (--viewport-lg-plus) {
+            font-size: 15px;
+        }*/
+    }
+
+    & .offerMessageButton {
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            width: 200px;
+            background: #cc0000;
+            box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);
+            color: #fff;
+            height: 48px;
+            border-radius: 2px;
+            margin-top: 30px;
+            font-family: var(--main-font);
+            letter-spacing: 0.5px;
+            font-size: 16px;
+    }
+}
+
+@media (--viewport-sm), (--viewport-md) {
+    .customModalWrapper{
+        width:85%;
+    }
+}
+

@@ -1,0 +1,55 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+@import 'yoda-core-components/lib/assets/styles/settings/breakpoints.css';
+
+.footerWrap{
+  letter-spacing: .03125rem;
+  font-family: var(--main-font);
+
+  & .getApp{
+      border: .125rem solid var(--color-light-black);
+      border-radius: .1875rem;
+      text-align: center;
+      padding: .3125rem;
+      width: 95%;
+      max-width: 18.125rem;
+      color: #333;
+      margin: 2.5rem auto 0 auto;
+      text-transform: uppercase;
+
+    & .link{
+      font-size: 1rem;
+      color: var(--color-light-black);
+    }
+  }
+}
+.customModalWrapper{
+    width:75%;
+    padding: 10px;
+}
+.customModalContent{
+    font-weight: 400;
+    letter-spacing: 0.03125rem;
+
+    & .modalTitle{
+      margin-bottom: .625rem;
+    }
+
+    & .modalPara {
+      font-size: .6875rem;
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+      padding-top: 1rem;
+      color: var(--color-light-black);
+    }
+
+    & .single{
+      border-top: 1px solid #ccc;
+    }
+}
+
+@media (--viewport-sm), (--viewport-md) {
+    .customModalWrapper{
+        width:100%;
+    }
+}

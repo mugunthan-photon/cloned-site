@@ -1,0 +1,56 @@
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import '../../../../assets/styles/fonts/fonts.css';
+
+@import './themes/Gallery.css';
+
+.container {
+    overflow: auto;
+    & .optionsBlock {
+        background-color: var(--color-gray-0);
+        padding: 8px 16px;
+        @media (--viewport-sm) {
+            padding: 8px;
+        }
+    }
+
+    & .hide {
+        display: none;
+    }
+
+    & .infoText {
+        font-family: var(--main-secondary-font);
+        font-size: 16px;
+        font-style: italic;
+        line-height: 1.5;
+        color: var(--color-gray-5);
+        padding-bottom: 8px;
+    }
+
+
+    & .changeText {
+        font-size: 14px;;
+        line-height: 1.71;
+        color: var(--color-seconday-turquoise);
+        font-style: normal;
+    }
+
+    & .checkBoxText {
+        color: -var(--color-light-black);
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.71;
+        font-family: var(--main-secondary-font);
+
+        & [class*="wrap"] {
+            & [class*="checkbox"]+[class*="label"] {
+                display: block;
+            }
+        }
+    }
+}
+
+.labelWrapper {
+    margin-top: 8px;
+    float: left;
+}

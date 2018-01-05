@@ -1,0 +1,135 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import "yoda-core-components/lib/assets/styles/grid/grid.css";
+
+.message {
+	margin: 0;
+    margin-bottom: 16px;
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+
+    & .messageBlock {
+        padding-bottom: 10px;
+	    box-shadow: 0 2px 4px 0 rgba(83, 95, 107, 0.5);
+
+        & .messageGrid {
+            position: relative;
+
+            & .messageIcon {
+                position: absolute;
+                width: 40px;
+                top: 0;
+                left: 0;
+            }
+
+            & .messageContent {
+                margin-top: 10px;
+                margin-left: 40px;
+            }
+
+            & .messageTitle {
+                opacity: 0.75;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            & .messageText {
+                font-size: 14px;
+                font-weight: normal;
+                color: var(--color-gray-7);
+            }
+        }
+
+        & .close {
+            margin-top: 5px;
+            float: right;
+        }
+    }
+
+    /* Error Message */
+    &.errorMessage {
+        & .messageBlock {
+            border: 1px solid var(--color-error-red);
+            background-color: var(--color-error-red-bg);
+        }
+
+        & .messageTitle {
+            color: var(--color-error-red);
+        }
+    }
+
+    /* Success Message */
+    &.successMessage {
+        & .messageBlock {
+            border: 1px solid var(--color-success-green);
+            background-color: var(--color-success-green-bg);
+        }
+
+        & .messageTitle {
+            color: var(--color-success-green);
+        }
+    }
+
+    /* Warning Message */
+    &.warningMessage {
+        & .messageBlock {
+            border: 1px solid var(--color-warning-orange);
+            background-color: var(--color-warning-bg);
+        }
+
+        & .messageTitle {
+            color: var(--color-warning-orange);
+        }
+    }
+
+    /* Information Message */
+    &.informationMessage {
+        & .messageBlock {
+            border: 1px solid var(--color-neutral-blue);
+            background-color: var(--color-neutral-blue-bg);
+        }
+
+        & .messageTitle {
+            color: var(--color-neutral-blue);
+        }
+    }
+
+    /* Level Based Styles */
+    & .inline {
+        &.messageBlock {
+            background: none;
+            box-shadow: none;
+            padding: 0;
+            border: 0;
+
+            & .close {
+                display: none;
+            }
+        }
+    }
+
+    & .toast {
+        border-radius: 0 0 4px 4px;
+
+        /* For Larger Screens width as per the UX */
+        @media (--viewport-xl) {
+            width: 650px;
+        }
+
+        @media (--viewport-lg) {
+            width: 650px;
+        }
+
+        @media (--viewport-md) {
+            width: 470px;
+        }
+
+        @media (--viewport-sm) {
+            width: 300px;
+        }
+    }
+
+    & .box {
+        border-radius: 4px;
+    }
+}

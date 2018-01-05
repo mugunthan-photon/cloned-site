@@ -1,0 +1,131 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+@define-mixin filterArrow {
+    content: '';
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    transform: translateX(50%);
+}
+
+.filterServiceWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: var(--open-sans);
+
+    & .filterTitle{
+        color: var(--color-seconday-turquoise);
+        font-size: 1rem!important;
+        font-weight: bold;
+    }
+
+    & .facetText {
+        display: inherit;
+    }
+
+    & .filterLabel{
+        position: relative;
+        top: 8px;
+    }
+
+    & .storeListItem{
+        text-align: left;
+        float: left;
+        width: 100%;
+    }
+
+    & .disabledFilters{
+        color: var(--color-seconday-turquoise);
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: right;
+
+        &.mobileView{
+            text-align: center;
+        }
+
+        & .disabledFilterTitle{
+             position: relative;
+             padding-right: 10px;
+        }
+
+        & .arrow-down{
+            @add-mixin filterArrow;
+            border-top: 5px solid var(--color-seconday-turquoise);
+        }
+    }
+
+    & .mobileFilterStoreBlock{
+        
+        & .buttonWrap{
+            margin: 0 auto;
+            width: 150px;
+            position: relative;
+
+            & .arrow-down{
+                @add-mixin filterArrow;
+                border-top: 5px solid var(--color-seconday-turquoise);
+            }
+            & .arrow-up{
+                @add-mixin filterArrow;
+                border-bottom: 5px solid var(--color-seconday-turquoise);
+            }
+        }
+    }
+
+    & .filterStoreBlock{
+        text-align: right;
+        position: relative;
+        padding-right: 15px;
+        
+        & .arrow-down{
+            @add-mixin filterArrow;
+            border-top: 5px solid var(--color-seconday-turquoise);
+        }
+        & .arrow-up{
+            @add-mixin filterArrow;
+            border-bottom: 5px solid var(--color-seconday-turquoise);
+        }
+
+        & .tooltipView{
+            background: var(--color-white);
+            box-shadow: 0 2px 4px 0 rgba(83, 95, 107, .5);
+            border: solid 1px var(--color-gray-3);
+            width: 500px;
+            right: 0;
+            text-align: left;
+            top: 40px;
+
+             &::before, &::after{
+                content: "";
+                position: absolute;
+                right: 25px;
+                border-width: 11px;
+                border-style: solid;
+            }
+
+            &::before{
+                bottom: 100%;   
+                border-color: transparent transparent var(--color-gray-3) transparent;
+            }
+
+            &::after{
+                bottom: 99.3%;
+                border-color: transparent transparent var(--color-white) transparent;
+            }
+        }
+
+        & .listWrapper{
+            & .storeListItem{
+                float: left;
+                width: 50%;
+            }
+            
+        }
+    }
+    
+}

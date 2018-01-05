@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+*.lock
+
+idea/*
+build/*
+logs/*
+node_modules/*
+
+svgGen/*
+src/assets/svg/*

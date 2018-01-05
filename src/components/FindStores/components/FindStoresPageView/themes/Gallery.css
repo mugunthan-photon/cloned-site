@@ -1,0 +1,9 @@
+.contentWrapper{
+    &.gallery{
+         & .listWrapper{
+            & .loadMoreContainer {
+                background: none;
+            }
+         }
+    }
+}

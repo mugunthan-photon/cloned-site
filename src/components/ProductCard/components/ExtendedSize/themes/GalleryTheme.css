@@ -1,0 +1,10 @@
+
+@media (--viewport-sm) {
+    .extendedSize {
+        &.gallery{
+            &.list{
+                position: relative;
+            }
+        }
+    }
+}

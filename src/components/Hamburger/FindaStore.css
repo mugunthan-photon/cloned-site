@@ -1,0 +1,20 @@
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import "yoda-core-components/lib/assets/styles/colors/colors.css";
+@import "yoda-core-components/lib/assets/styles/fonts/fonts.css";
+@import "../../assets/styles/base/base.css";
+.findSelect {
+    padding-top: 20px;
+    & .select {
+        width: 90%;
+        background-color: #FFFFFF;
+        border: solid 1px #C7CDD4;
+        color: #384048;
+        min-width: 160px;
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    & .primary {
+        width: 90%;
+        margin-top: 10px;
+    }
+}

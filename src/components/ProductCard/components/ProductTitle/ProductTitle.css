@@ -1,0 +1,32 @@
+@import 'yoda-core-components/lib/assets/styles/colors/colors.css';
+@import 'yoda-core-components/lib/assets/styles/grid/grid.css';
+@import 'yoda-core-components/lib/assets/styles/fonts/fonts.css';
+
+
+@import './themes/GalleryTheme.css';
+@import './themes/OneRecordBannerTheme.css';
+@import './themes/CartridgeTheme.css';
+
+.title {
+    font: 500 0.75rem var(--open-sans);
+    color: var(--color-gray-7);
+    line-height: 1.5rem;
+    margin: 8px 0 6px;
+    padding: 0;
+    height: 45px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+
+    @media (--viewport-sm) {
+        &.list {
+            & .title{
+                font-size: 14px;
+                line-height: 20px;
+                height: 43px;
+            }
+        }
+    }
+}

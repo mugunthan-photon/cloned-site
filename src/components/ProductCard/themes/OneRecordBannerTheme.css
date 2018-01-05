@@ -1,0 +1,46 @@
+.productCard{
+    &.oneRecordBanner{
+        padding: 0px;
+        display: inherit;
+        width: 100%;
+
+         & .imgBlock {
+            & .imageDetails {
+                height: auto;
+            }
+        }
+
+        & .list{
+             & .imgBlock {
+                display: flex;
+                width: 201px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                 & .imageDetails {
+                    flex-direction: column;
+                    position: relative;
+                }
+             }
+
+             & .detailsWrapper{
+                width: auto;
+                flex-grow: 1;
+             }
+
+             @media (--viewport-sm) {
+                & .imgBlock {
+                    width: 30%;
+                    display: block;
+                    & .imageDetails{
+                        margin-top: 8px;
+                    }
+                }
+
+                & .detailsWrapper {
+                    width: 70%;
+                }
+             }
+        }
+   }
+}

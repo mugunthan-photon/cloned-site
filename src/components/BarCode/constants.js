@@ -1,0 +1,15 @@
+export default {
+    cpc: 15,
+    direct: 16,
+    organic: 54,
+    email: 10,
+    affiliate: 85,
+    display: 55,
+    referral: 56,
+    cse: 57,
+    mobile: 20,
+    streamingvideo: 48,
+    social: 60,
+    streamingaudio: 49,
+    branddisplay: 72,
+};

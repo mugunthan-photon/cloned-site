@@ -1,0 +1,57 @@
+.SelectStoreContainer{
+    &.gallery{
+        display: flex;
+
+        & .storeHoursAndSelectButtonContainer{
+            display: flex;
+            & .storeHoursContainer{
+                flex: 1;
+            }
+        }
+
+        & .labelContainerClass{
+            width: 0;
+        }
+
+        & .storeDetailsWrapper{
+           flex: 1;
+           margin-left: 8px;
+        }
+
+        & .storeHoursAndSelectButtonContainer{
+            & .selectContainer{
+                width: initial;
+            }
+        }
+
+        &.desktopSelectStore{
+            padding: 8px;
+
+            & .title, & .distance {
+                font-size: 0.875rem;
+            }
+
+            & .address{
+                font-size: 0.75rem;
+            }
+
+            & .separator{
+                display: none;
+            }
+
+            & .phoneNumber{
+                display: block;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+
+            & .directionDetails{
+                margin: 5px 0 5px;
+            }
+
+            & .storeDetailsWrapper{
+                margin-left: 2px;
+            }
+        }
+    }
+}

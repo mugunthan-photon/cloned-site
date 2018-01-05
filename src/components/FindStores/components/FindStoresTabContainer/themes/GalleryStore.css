@@ -1,0 +1,23 @@
+.container {
+    &.gallery{
+        position: relative;
+        height: calc(100% - 36px);
+
+        & .scrollableContainer {
+            padding-bottom: 0px;
+        }
+
+        & .tabPanelContent {
+            padding-bottom: 0px;
+            height: calc(100% - 64px);
+        }
+
+        &.desktopContainer{
+            & .tab {
+                & .tabButton{
+                    font-size: 0.81rem;
+                }
+            }
+        }
+    }
+}

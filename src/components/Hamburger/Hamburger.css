@@ -1,0 +1,181 @@
+@import "yoda-core-components/lib/assets/styles/settings/breakpoints.css";
+@import "yoda-core-components/lib/assets/styles/colors/colors.css";
+@import "yoda-core-components/lib/assets/styles/fonts/fonts.css";
+@import "../../assets/styles/base/base.css";
+.sliderWrapper {
+    & .title {
+        text-transform: uppercase;
+    }
+    & .menuLink {
+        display: block;
+        font-size: 22px;
+        cursor: pointer;
+        width: 26px;
+        height: 22px;
+        margin: 5px auto;
+        border-bottom: 2px solid var(--color-white);
+        position: relative;
+        border-radius: 0;
+        
+        &:after,
+        &:before {
+            content: '';
+            position: absolute;
+            border-bottom: 2px solid var(--color-white);
+            left: 0;
+            top: 0;
+            width: 26px;
+        }
+        &:after {
+            top: 10px;
+        }
+    }
+    & .iconWrapper {
+        display: inline-block;
+        vertical-align: middle;
+        min-height: 22px;
+        padding-top: 4px;
+    }
+    & .verticalSlide {
+        background: rgba(0, 0, 0, 0);
+        position: fixed;
+        z-index: 999999;
+        top: 0;
+        bottom: 0;
+        left: -2000rem;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: rgba(0, 0, 0, 0.45);
+        @media (--viewport-classic-sm) {
+            padding-top: 0;
+        }
+        &.visible {
+            left: 0;
+        }
+    }
+    & .slideChildWrapper {
+        background: var(--color-white);
+        height: calc(100% - 30px);
+    }
+    & .menuWrapper {
+        width: 20rem;
+        height: 100%;
+        display: block;
+        transition: all .1s ease-out;
+        box-shadow: 0 0.25rem 0.1875rem 0.1875rem rgba(0, 0, 0, .1);
+        background: var(--color-white);
+        color: var(--color-black);
+
+        @media (--viewport-classic-sm) {
+            width: 90%;
+        }
+         /*MNPDPYODA-2006 - Removing orientation: landscape as opening keyboard breaks css orientation rules*/
+        @media (--viewport-classic-sm) and (min-aspect-ratio: 13/9) {
+            width: 60%;
+        }
+    }
+    & .menuWrapperClose {
+        display: block;
+        height: 48px;
+        background-color: #006c7c;
+        box-shadow: 0 2px 4px 0 rgba(83, 96, 107, 0.5);
+        text-decoration: none;
+        text-align: left;
+        color: #fff;
+        padding: .690rem .625rem .625rem 40px;
+        width: 100%;
+        box-sizing: border-box;
+        font-weight: bold;
+        position: relative;
+        font-size: 14px;
+        & .menuCloseIcon {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 12px;
+        }
+        & .backIcon {
+            content: '';
+            position: absolute;
+            color: var(--color-black);
+            left: 3px;
+            top: 10px;
+            width: 40px;
+        }
+    }
+    & .rightAlign {
+        position: absolute;
+        right: 0px;
+        & .slideChildWrapper {
+            width: 100%;
+        }
+        & .menuWrapperClose {
+            width: 100%;
+            padding-left: 20px;
+            & .menuCloseIcon {
+                right: 8px;
+                left: auto;
+            }
+        }
+    }
+    & .menuList {
+        height: 100%;
+        overflow-y: scroll;
+        background: var(--color-white);
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        bottom: 0;
+        top: 40px;
+        position: absolute;
+        width: 300px;
+        @media (--viewport-classic-sm) {
+            width: 80%;
+        }
+    }
+    & .menuListItem {
+        list-style-type: none;
+    }
+    & .menuListItemLink {
+        display: block;
+        padding: 10px;
+        border-bottom: solid 1px var(--color-light-gray);
+        color: var(--color-light-black);
+        text-decoration: none;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.scrollLock {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.loadingCircle {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    margin: -15px 0 0 -15px;
+    border: 3px solid color(var(--color-white) a(70%));
+    border-top-color: color(var(--color-black) a(70%));
+    animation: loading-spinner 0.5s infinite linear;
+}
+
+@keyframes loading-spinner {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+[class*="branch-banner-is-active"] {
+    & .verticalSlide {
+        top: 76px;
+    }
+}

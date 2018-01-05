@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+*.lock
+*.temp.js
+coverage/*
+.idea/*
+build/*
+logs/*
+node_modules/*
+webpack/README.md
+# Gradle build files
+.gradle/
+
+# ignore generated SVG files
+svgGen/*
+src/assets/sprite.svg

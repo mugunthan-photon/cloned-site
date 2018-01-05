@@ -1,0 +1,8 @@
+@media (--viewport-sm) {
+    .extendedSize {
+        &.oneRecordBanner{
+            position: relative;
+            margin-top: 15px;
+        }
+    }
+}

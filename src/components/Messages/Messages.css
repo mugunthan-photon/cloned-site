@@ -1,0 +1,21 @@
+.messages {
+    &.page {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &.section {
+
+    }
+
+    &.inline {
+
+    }
+
+    &.popup {
+
+    }
+
+}
